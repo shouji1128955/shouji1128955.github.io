@@ -1,0 +1,22 @@
+{
+  "id": "Golang/golang基础/笔记总结/笔记总结",
+  "title": "笔记总结",
+  "description": "1、装饰器函数",
+  "source": "@site/docs/Golang/golang基础/4.笔记总结/笔记总结.md",
+  "sourceDirName": "Golang/golang基础/4.笔记总结",
+  "slug": "/Golang/golang基础/笔记总结/笔记总结",
+  "permalink": "/docs/Golang/golang基础/笔记总结/笔记总结",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang基础/4.笔记总结/笔记总结.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngJichu",
+  "previous": {
+    "title": "Goproxy.cn",
+    "permalink": "/docs/Golang/golang基础/golang环境信息配置/golang环境信息配置"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Sre/中间件/openvpn",
+  "title": "openvpn",
+  "description": "飞书工单",
+  "source": "@site/docs/Sre/2-中间件/10.openvpn.md",
+  "sourceDirName": "Sre/2-中间件",
+  "slug": "/Sre/中间件/openvpn",
+  "permalink": "/docs/Sre/中间件/openvpn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/2-中间件/10.openvpn.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "SreMiddleSoft",
+  "previous": {
+    "title": "TongWeb",
+    "permalink": "/docs/Sre/中间件/TongWeb"
+  },
+  "next": {
+    "title": "nginx",
+    "permalink": "/docs/Sre/中间件/nginx"
+  }
+}

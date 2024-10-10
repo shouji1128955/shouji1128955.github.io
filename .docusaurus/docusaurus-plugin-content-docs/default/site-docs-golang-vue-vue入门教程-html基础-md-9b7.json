@@ -1,0 +1,22 @@
+{
+  "id": "Golang/VUE/vue入门教程/html基础",
+  "title": "html基础",
+  "description": "web应用程序：处理来自浏览器的请求响应的服务",
+  "source": "@site/docs/Golang/VUE/vue入门教程/html基础.md",
+  "sourceDirName": "Golang/VUE/vue入门教程",
+  "slug": "/Golang/VUE/vue入门教程/html基础",
+  "permalink": "/docs/Golang/VUE/vue入门教程/html基础",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/VUE/vue入门教程/html基础.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngVue",
+  "next": {
+    "title": "vue入门教程1",
+    "permalink": "/docs/Golang/VUE/vue入门教程/vue入门教程1"
+  }
+}

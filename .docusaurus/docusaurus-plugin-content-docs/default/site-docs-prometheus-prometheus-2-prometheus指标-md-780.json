@@ -1,0 +1,27 @@
+{
+  "id": "Prometheus/prometheus/prometheus指标",
+  "title": "prometheus指标",
+  "description": "1、go内存相关",
+  "source": "@site/docs/Prometheus/prometheus/2-prometheus指标.md",
+  "sourceDirName": "Prometheus/prometheus",
+  "slug": "/Prometheus/prometheus/prometheus指标",
+  "permalink": "/docs/Prometheus/prometheus/prometheus指标",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Prometheus/prometheus/2-prometheus指标.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "PrometheusServer",
+  "previous": {
+    "title": "告警指标汇总",
+    "permalink": "/docs/Prometheus/prometheus/告警指标汇总"
+  },
+  "next": {
+    "title": "ServiceMoinitor",
+    "permalink": "/docs/Prometheus/prometheus/ServiceMoinitor"
+  }
+}

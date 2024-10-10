@@ -1,0 +1,22 @@
+{
+  "id": "DevOps/jenkins/hello",
+  "title": "hello",
+  "description": "",
+  "source": "@site/docs/DevOps/1-jenkins/hello.md",
+  "sourceDirName": "DevOps/1-jenkins",
+  "slug": "/DevOps/jenkins/hello",
+  "permalink": "/docs/DevOps/jenkins/hello",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/1-jenkins/hello.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "DevOpsJenkins",
+  "previous": {
+    "title": "配置ansible",
+    "permalink": "/docs/DevOps/jenkins/通过ansible实现服务发布/配置ansible"
+  }
+}

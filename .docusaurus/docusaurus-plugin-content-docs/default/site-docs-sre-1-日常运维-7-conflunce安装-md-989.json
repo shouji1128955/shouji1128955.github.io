@@ -1,0 +1,27 @@
+{
+  "id": "Sre/日常运维/conflunce安装",
+  "title": "conflunce安装",
+  "description": "服务部署",
+  "source": "@site/docs/Sre/1-日常运维/7.conflunce安装.md",
+  "sourceDirName": "Sre/1-日常运维",
+  "slug": "/Sre/日常运维/conflunce安装",
+  "permalink": "/docs/Sre/日常运维/conflunce安装",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/1-日常运维/7.conflunce安装.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "SreOper",
+  "previous": {
+    "title": "clickhouse集群节点重新加入",
+    "permalink": "/docs/Sre/日常运维/clickhouse集群节点重新加入"
+  },
+  "next": {
+    "title": "磁盘管理",
+    "permalink": "/docs/Sre/日常运维/磁盘管理"
+  }
+}

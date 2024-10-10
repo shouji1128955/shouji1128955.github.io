@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+# 触发条件：当向 main 分支推送时
+on:
+  push:
+    branches:
+      - main
+
+# 设置权限，允许写入内容
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 环境
+    steps:
+      - uses: actions/checkout@v3 # 检出代码
+      - uses: actions/setup-node@v3 # 设置 Node.js 环境
+        with:
+          node-version: 18 # 指定 Node.js 版本
+          cache: yarn # 缓存 yarn 依赖
+
+      - name: Install dependencies # 安装依赖
+        run: yarn install --frozen-lockfile --no-cache # 安装依赖并确保 lockfile 一致，不使用缓存
+
+      - name: Build website # 构建网站
+        run: |
+          yarn build --locale zh-CN || echo "Build failed" # 针对 zh-CN 语言环境构建，如果失败则输出错误信息
+
+      - name: Deploy to GitHub Pages # 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3 # 使用 peaceiris 的 GitHub Pages 部署动作
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
+          publish_dir: ./build # 指定要发布的构建输出目录
+          user_name: github-actions[bot] # 提交时使用的用户名
+          user_email: 409003604@qq.com # 提交时使用的用户邮箱

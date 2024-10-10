@@ -1,0 +1,27 @@
+{
+  "id": "DevOps/ELK/ELK日志告警",
+  "title": "ELK日志告警",
+  "description": "1、ES单节点安装",
+  "source": "@site/docs/DevOps/3-ELK/2-ELK日志告警.md",
+  "sourceDirName": "DevOps/3-ELK",
+  "slug": "/DevOps/ELK/ELK日志告警",
+  "permalink": "/docs/DevOps/ELK/ELK日志告警",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/3-ELK/2-ELK日志告警.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "DevOpsElk",
+  "previous": {
+    "title": "ELK测试部署",
+    "permalink": "/docs/DevOps/ELK/ELK测试部署"
+  },
+  "next": {
+    "title": "elasticsearch操作",
+    "permalink": "/docs/DevOps/ELK/elasticsearch操作"
+  }
+}

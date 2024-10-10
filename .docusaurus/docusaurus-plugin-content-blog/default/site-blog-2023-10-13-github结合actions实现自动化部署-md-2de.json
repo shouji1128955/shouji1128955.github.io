@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/github结合actions实现自动化部署",
+  "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog/blog/2023/10-13-github结合actions实现自动化部署.md",
+  "source": "@site/blog/2023/10-13-github结合actions实现自动化部署.md",
+  "title": "github结合actions实现自动化部署",
+  "description": "A short description of this page",
+  "date": "2023-10-13T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "action",
+      "permalink": "/blog/tags/action"
+    },
+    {
+      "inline": true,
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 6.57,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "zhanglaiqiang",
+      "title": "liteshell.cn maintainer",
+      "url": "https://github.com/shouji1128955/bookshell",
+      "imageURL": "https://avatars.githubusercontent.com/u/49987752?v=4",
+      "key": "liteshell",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "github结合actions实现自动化部署",
+    "description": "A short description of this page",
+    "keywords": [
+      "docusaurus",
+      "describing",
+      "the main topics"
+    ],
+    "authors": "liteshell",
+    "slug": "github结合actions实现自动化部署",
+    "tags": [
+      "action",
+      "docusaurus"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "config-docusaurus-v2",
+    "permalink": "/blog/config-docusaurus-v2"
+  }
+}

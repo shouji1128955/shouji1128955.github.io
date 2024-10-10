@@ -1,0 +1,22 @@
+{
+  "id": "Golang/golang进阶/问题汇总/ORM数据库汇总",
+  "title": "ORM数据库汇总",
+  "description": "创建表的继承和关联表",
+  "source": "@site/docs/Golang/golang进阶/3.问题汇总/ORM数据库汇总.md",
+  "sourceDirName": "Golang/golang进阶/3.问题汇总",
+  "slug": "/Golang/golang进阶/问题汇总/ORM数据库汇总",
+  "permalink": "/docs/Golang/golang进阶/问题汇总/ORM数据库汇总",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang进阶/3.问题汇总/ORM数据库汇总.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngJinjie",
+  "previous": {
+    "title": "Mysql",
+    "permalink": "/docs/Golang/golang进阶/mysql数据库/Mysql基础"
+  }
+}

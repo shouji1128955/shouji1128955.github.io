@@ -1,0 +1,27 @@
+{
+  "id": "DevOps/gitOps/tekton拉取代码",
+  "title": "tekton拉取代码",
+  "description": "1、Tekton代码拉取实现",
+  "source": "@site/docs/DevOps/2-gitOps/1-tekton拉取代码.md",
+  "sourceDirName": "DevOps/2-gitOps",
+  "slug": "/DevOps/gitOps/tekton拉取代码",
+  "permalink": "/docs/DevOps/gitOps/tekton拉取代码",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/2-gitOps/1-tekton拉取代码.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "DevOpsGitOps",
+  "previous": {
+    "title": "tekton安装",
+    "permalink": "/docs/DevOps/gitOps/tekton安装"
+  },
+  "next": {
+    "title": "tekton-results",
+    "permalink": "/docs/DevOps/gitOps/tekton-results"
+  }
+}

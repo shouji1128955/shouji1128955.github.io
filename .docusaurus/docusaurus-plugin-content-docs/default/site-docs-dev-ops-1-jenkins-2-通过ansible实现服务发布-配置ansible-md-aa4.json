@@ -1,0 +1,26 @@
+{
+  "id": "DevOps/jenkins/通过ansible实现服务发布/配置ansible",
+  "title": "配置ansible",
+  "description": "测试",
+  "source": "@site/docs/DevOps/1-jenkins/2-通过ansible实现服务发布/配置ansible.md",
+  "sourceDirName": "DevOps/1-jenkins/2-通过ansible实现服务发布",
+  "slug": "/DevOps/jenkins/通过ansible实现服务发布/配置ansible",
+  "permalink": "/docs/DevOps/jenkins/通过ansible实现服务发布/配置ansible",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/1-jenkins/2-通过ansible实现服务发布/配置ansible.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "DevOpsJenkins",
+  "previous": {
+    "title": "jenkins安装配置",
+    "permalink": "/docs/DevOps/jenkins/jenkins安装配置/jenkins安装配置"
+  },
+  "next": {
+    "title": "hello",
+    "permalink": "/docs/DevOps/jenkins/hello"
+  }
+}

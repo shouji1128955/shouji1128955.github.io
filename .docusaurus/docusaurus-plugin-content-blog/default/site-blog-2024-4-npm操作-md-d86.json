@@ -1,0 +1,18 @@
+{
+  "permalink": "/blog/2024/4.npm操作",
+  "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog/blog/2024/4.npm操作.md",
+  "source": "@site/blog/2024/4.npm操作.md",
+  "title": "npm常用命令",
+  "description": "简介",
+  "date": "2024-10-10T16:13:14.000Z",
+  "tags": [],
+  "readingTime": 5.08,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "nextItem": {
+    "title": "mongodb数据库恢复",
+    "permalink": "/blog/2023/12/19/mongodb数据库恢复"
+  }
+}

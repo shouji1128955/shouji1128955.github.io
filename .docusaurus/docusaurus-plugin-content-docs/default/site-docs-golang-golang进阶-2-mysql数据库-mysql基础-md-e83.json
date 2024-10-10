@@ -1,0 +1,26 @@
+{
+  "id": "Golang/golang进阶/mysql数据库/Mysql基础",
+  "title": "Mysql",
+  "description": "简单来说，数据库就是一个存储数据的仓库，它将数据按照特定的规律存储在磁盘上。为了方便用户组织和管理数据，其专门提供了数据库管理系统。通过数据库管理系统，用户可以有效的组织和管理存储在数据库中的数据。本教程所要讲解的 MySQL，就是一种非常优秀的数据库管理系统。",
+  "source": "@site/docs/Golang/golang进阶/2.mysql数据库/Mysql基础.md",
+  "sourceDirName": "Golang/golang进阶/2.mysql数据库",
+  "slug": "/Golang/golang进阶/mysql数据库/Mysql基础",
+  "permalink": "/docs/Golang/golang进阶/mysql数据库/Mysql基础",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang进阶/2.mysql数据库/Mysql基础.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngJinjie",
+  "previous": {
+    "title": "Gin框架",
+    "permalink": "/docs/Golang/golang进阶/gin框架2023/Gin框架"
+  },
+  "next": {
+    "title": "ORM数据库汇总",
+    "permalink": "/docs/Golang/golang进阶/问题汇总/ORM数据库汇总"
+  }
+}

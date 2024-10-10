@@ -1,0 +1,27 @@
+{
+  "id": "DevOps/gitOps/Tekton-catalog",
+  "title": "Tekton-catalog",
+  "description": "Tekton Catalog",
+  "source": "@site/docs/DevOps/2-gitOps/3-Tekton-catalog.md",
+  "sourceDirName": "DevOps/2-gitOps",
+  "slug": "/DevOps/gitOps/Tekton-catalog",
+  "permalink": "/docs/DevOps/gitOps/Tekton-catalog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/2-gitOps/3-Tekton-catalog.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "DevOpsGitOps",
+  "previous": {
+    "title": "tekton-results",
+    "permalink": "/docs/DevOps/gitOps/tekton-results"
+  },
+  "next": {
+    "title": "Tekton-sidecar",
+    "permalink": "/docs/DevOps/gitOps/Tekton-sidecar"
+  }
+}

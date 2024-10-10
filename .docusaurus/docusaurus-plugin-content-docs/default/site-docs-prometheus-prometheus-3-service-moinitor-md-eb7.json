@@ -1,0 +1,23 @@
+{
+  "id": "Prometheus/prometheus/ServiceMoinitor",
+  "title": "ServiceMoinitor",
+  "description": "ServiceMonitor",
+  "source": "@site/docs/Prometheus/prometheus/3-ServiceMoinitor.md",
+  "sourceDirName": "Prometheus/prometheus",
+  "slug": "/Prometheus/prometheus/ServiceMoinitor",
+  "permalink": "/docs/Prometheus/prometheus/ServiceMoinitor",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Prometheus/prometheus/3-ServiceMoinitor.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "PrometheusServer",
+  "previous": {
+    "title": "prometheus指标",
+    "permalink": "/docs/Prometheus/prometheus/prometheus指标"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Golang/golang基础/Go核心编程2023/golang",
+  "title": "Go语言开篇介绍",
+  "description": "Go语言 是Google公司 在2007开发一种静态强类型、编译型语言，并在 2009 年正式对外发布。",
+  "source": "@site/docs/Golang/golang基础/1.Go核心编程2023/golang.md",
+  "sourceDirName": "Golang/golang基础/1.Go核心编程2023",
+  "slug": "/Golang/golang基础/Go核心编程2023/golang",
+  "permalink": "/docs/Golang/golang基础/Go核心编程2023/golang",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang基础/1.Go核心编程2023/golang.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngJichu",
+  "next": {
+    "title": "Config",
+    "permalink": "/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件"
+  }
+}

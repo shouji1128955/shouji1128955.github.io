@@ -1,0 +1,23 @@
+{
+  "id": "Sre/面试题/基础面试题",
+  "title": "基础面试题",
+  "description": "Linux系统",
+  "source": "@site/docs/Sre/3-面试题/1.基础面试题.md",
+  "sourceDirName": "Sre/3-面试题",
+  "slug": "/Sre/面试题/基础面试题",
+  "permalink": "/docs/Sre/面试题/基础面试题",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/3-面试题/1.基础面试题.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "SreMianshi",
+  "next": {
+    "title": "kubernetes面试题",
+    "permalink": "/docs/Sre/面试题/kubernetes面试题"
+  }
+}

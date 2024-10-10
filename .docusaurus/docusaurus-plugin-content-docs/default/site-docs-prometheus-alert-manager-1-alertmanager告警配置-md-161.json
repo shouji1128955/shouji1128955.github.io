@@ -1,0 +1,19 @@
+{
+  "id": "Prometheus/alertManager/alertmanager告警配置",
+  "title": "alertmanager告警配置",
+  "description": "告警模板参考",
+  "source": "@site/docs/Prometheus/alertManager/1.alertmanager告警配置.md",
+  "sourceDirName": "Prometheus/alertManager",
+  "slug": "/Prometheus/alertManager/alertmanager告警配置",
+  "permalink": "/docs/Prometheus/alertManager/alertmanager告警配置",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Prometheus/alertManager/1.alertmanager告警配置.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "PrometheusAlert"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "k8s/operator",
+  "title": "operator",
+  "description": "1、操作pod",
+  "source": "@site/docs/k8s/1.operator.md",
+  "sourceDirName": "k8s",
+  "slug": "/k8s/operator",
+  "permalink": "/docs/k8s/operator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/k8s/1.operator.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "k8s",
+  "next": {
+    "title": "k8s_studay",
+    "permalink": "/docs/k8s/k8s_studay"
+  }
+}

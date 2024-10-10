@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2023/12/19/mongodb数据库恢复",
+  "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog/blog/2023/12-19mongodb数据库恢复.md",
+  "source": "@site/blog/2023/12-19mongodb数据库恢复.md",
+  "title": "mongodb数据库恢复",
+  "description": "分析问题现状",
+  "date": "2023-12-19T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 7.98,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "prevItem": {
+    "title": "npm常用命令",
+    "permalink": "/blog/2024/4.npm操作"
+  },
+  "nextItem": {
+    "title": "config-docusaurus-v2",
+    "permalink": "/blog/config-docusaurus-v2"
+  }
+}

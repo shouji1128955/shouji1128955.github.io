@@ -1,0 +1,27 @@
+{
+  "id": "k8s/更新内核",
+  "title": "更新内核",
+  "description": "编译安装方式",
+  "source": "@site/docs/k8s/5.更新内核.md",
+  "sourceDirName": "k8s",
+  "slug": "/k8s/更新内核",
+  "permalink": "/docs/k8s/更新内核",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/k8s/5.更新内核.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "k8s",
+  "previous": {
+    "title": "kubernetes_cka",
+    "permalink": "/docs/k8s/kubernetes_cka"
+  },
+  "next": {
+    "title": "ansible安装k8s-1.24.12",
+    "permalink": "/docs/k8s/ansible安装k8s-1.24.12"
+  }
+}

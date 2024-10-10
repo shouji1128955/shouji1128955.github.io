@@ -1,0 +1,18 @@
+{
+  "id": "Golang/golang运维/项目1-Bingo/Bingo",
+  "title": "Bingo",
+  "description": "【1】 Node.js的安装",
+  "source": "@site/docs/Golang/golang运维/项目1-Bingo/Bingo.md",
+  "sourceDirName": "Golang/golang运维/项目1-Bingo",
+  "slug": "/Golang/golang运维/项目1-Bingo/Bingo",
+  "permalink": "/docs/Golang/golang运维/项目1-Bingo/Bingo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang运维/项目1-Bingo/Bingo.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {},
+  "sidebar": "GoalngOper"
+}

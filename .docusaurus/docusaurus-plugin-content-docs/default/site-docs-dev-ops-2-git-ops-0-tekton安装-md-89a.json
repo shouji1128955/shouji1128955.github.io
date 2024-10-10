@@ -1,0 +1,23 @@
+{
+  "id": "DevOps/gitOps/tekton安装",
+  "title": "tekton安装",
+  "description": "npm 安装指定阿里云",
+  "source": "@site/docs/DevOps/2-gitOps/0-tekton安装.md",
+  "sourceDirName": "DevOps/2-gitOps",
+  "slug": "/DevOps/gitOps/tekton安装",
+  "permalink": "/docs/DevOps/gitOps/tekton安装",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/2-gitOps/0-tekton安装.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "DevOpsGitOps",
+  "next": {
+    "title": "tekton拉取代码",
+    "permalink": "/docs/DevOps/gitOps/tekton拉取代码"
+  }
+}

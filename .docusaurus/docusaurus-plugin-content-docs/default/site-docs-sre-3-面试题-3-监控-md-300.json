@@ -1,0 +1,27 @@
+{
+  "id": "Sre/面试题/监控",
+  "title": "监控",
+  "description": "分布式的监控主要有哪些",
+  "source": "@site/docs/Sre/3-面试题/3.监控.md",
+  "sourceDirName": "Sre/3-面试题",
+  "slug": "/Sre/面试题/监控",
+  "permalink": "/docs/Sre/面试题/监控",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/3-面试题/3.监控.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "SreMianshi",
+  "previous": {
+    "title": "kubernetes面试题",
+    "permalink": "/docs/Sre/面试题/kubernetes面试题"
+  },
+  "next": {
+    "title": "prometheus部署文档输出",
+    "permalink": "/docs/Sre/面试题/prometheus部署文档输出"
+  }
+}
