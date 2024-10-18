@@ -16,7 +16,7 @@ export default {
   "onBrokenMarkdownLinks": "warn",
   "themes": [
     [
-      "/Users/zhanglaiqiang/Mywork/shouji1128955/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "hashed": true,
         "language": [
@@ -41,7 +41,7 @@ export default {
       {
         "docs": {
           "sidebarCollapsed": true,
-          "sidebarPath": "/Users/zhanglaiqiang/Mywork/shouji1128955/sidebars.js",
+          "sidebarPath": "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/sidebars.js",
           "editUrl": "https://github.com/shouji1128955/bookshell/edit/main",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true
@@ -51,7 +51,7 @@ export default {
           "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog"
         },
         "theme": {
-          "customCss": "/Users/zhanglaiqiang/Mywork/shouji1128955/src/css/custom.css"
+          "customCss": "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/src/css/custom.css"
         }
       }
     ]

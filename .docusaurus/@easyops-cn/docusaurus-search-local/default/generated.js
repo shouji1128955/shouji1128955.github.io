@@ -1,12 +1,12 @@
-import lunr from "/Users/zhanglaiqiang/Mywork/shouji1128955/node_modules/lunr/lunr.js";
-require("/Users/zhanglaiqiang/Mywork/shouji1128955/node_modules/lunr-languages/lunr.stemmer.support.js")(lunr);
-require("/Users/zhanglaiqiang/Mywork/shouji1128955/node_modules/@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh.js").lunrLanguageZh(lunr);
-require("/Users/zhanglaiqiang/Mywork/shouji1128955/node_modules/lunr-languages/lunr.multi.js")(lunr);
+import lunr from "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/lunr/lunr.js";
+require("/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/lunr-languages/lunr.stemmer.support.js")(lunr);
+require("/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/@easyops-cn/docusaurus-search-local/dist/client/shared/lunrLanguageZh.js").lunrLanguageZh(lunr);
+require("/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/lunr-languages/lunr.multi.js")(lunr);
 export const language = ["en","zh"];
 export const removeDefaultStopWordFilter = false;
 export const removeDefaultStemmer = false;
 export const Mark = null;
-export const searchIndexUrl = "search-index{dir}.json?_=0fb8783e";
+export const searchIndexUrl = "search-index{dir}.json?_=a7e02472";
 export const searchResultLimits = 8;
 export const searchResultContextMaxLength = 50;
 export const explicitSearchResultPath = false;
