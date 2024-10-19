@@ -30,6 +30,12 @@ jobs:
       - name: Build website
         run: yarn build
 
+      #定义构建输出目录
+      - name: Upload Build Artifact 
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build	
+
       - name: Create CNAME file
         run: echo 'book.onlinebookshell.co.in' > ./build/CNAME          
 
