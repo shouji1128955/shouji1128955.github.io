@@ -56,8 +56,7 @@ jobs:
 
       - name: check command
         run: | 
-            echo API_KEY: ${{ secrets.API_KEY }}  
-           echo APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          echo APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
 
       - name: Checkout repo
         uses: actions/checkout@v3
