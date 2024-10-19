@@ -51,7 +51,7 @@ jobs:
     name: docsearch scraper
     steps:
       - name: Sleep for 10 seconds
-        run: sleep 10s
+        run: sleep 120s
         shell: bash
 
       - name: Checkout repo
