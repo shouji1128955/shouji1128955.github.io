@@ -63,6 +63,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           echo API_KEY: ${API_KEY}
+          echo APP_ID: ${APPLICATION_ID}
           CONFIG="$(cat docsearch/docsearch-config.json)"
           docker run -i --rm \
                   -e APPLICATION_ID=$APPLICATION_ID \
