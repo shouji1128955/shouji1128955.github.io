@@ -92,7 +92,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-      apiKey: "20dd8161d2fed0b6a3ef08cad53b3cd2",
+      apiKey: "71cebf88511b07054fd5a3847e6e2470",
       appId: "7IFH9CB2IS",
       indexName: "docsearchinter"
          },		
