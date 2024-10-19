@@ -14,6 +14,9 @@ jobs:
       - name: Sleep for 10 seconds
         run: sleep 10s
         shell: bash
+	
+      - name: check command
+        run: echo API_KEY: ${{ secrets.API_KEY }}  && echo APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
 
       - name: Checkout repo
         uses: actions/checkout@v3
