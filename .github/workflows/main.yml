@@ -49,9 +49,10 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     name: docsearch scraper
+    needs: deploy #等待deploy执行完
     steps:
       - name: Sleep for 10 seconds
-        run: sleep 120s
+        run: sleep 10s
         shell: bash
 
       - name: Checkout repo
