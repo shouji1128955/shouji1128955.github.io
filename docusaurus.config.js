@@ -31,20 +31,20 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  //配置搜索的部分
-  themes: [
-    // ... Your other themes.
-    [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The is recommended to set to:
-        language: ["en", "zh"],
-      },
-    ],
-  ],
+  ////配置搜索的部分
+  //themes: [
+  //  // ... Your other themes.
+  //  [
+  //      require.resolve("@easyops-cn/docusaurus-search-local"),
+  //    {
+  //      // ... Your options.
+  //      // `hashed` is recommended as long-term-cache of index file is possible.
+  //      hashed: true,
+  //      // For Docs using Chinese, The is recommended to set to:
+  //      language: ["en", "zh"],
+  //    },
+  //  ],
+  //],
 
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -91,7 +91,11 @@ const config = {
   
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-		
+      algolia: {
+      apiKey: "20dd8161d2fed0b6a3ef08cad53b3cd2",
+      appId: "7IFH9CB2IS",
+      indexName: "docsearchinter"
+         },		
 		
       // Replace with your project's social card
       docs: {

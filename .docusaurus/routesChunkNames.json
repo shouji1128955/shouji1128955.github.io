@@ -173,23 +173,23 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/search-822": {
+  "/search-5de": {
     "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "plugin---search-138-688"
+      "plugin": "plugin---searchc-14-0ea"
     }
   },
-  "/docs-7f1": {
+  "/docs-ae3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-3cd": {
+  "/docs-283": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-3a0": {
+  "/docs-87b": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/DevOps/ELK/elasticsearch操作-bc2": {
@@ -332,9 +332,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-k-8-s-helm-4-e-9-256"
   },
-  "/docs/k8s/k8s_studay-6f9": {
+  "/docs/k8s/k8s_studay-43d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-k-8-s-k-8-s-studay-21-f-541"
+    "content": "content---docs-k-8-s-k-8-s-studayec-3-6b7"
   },
   "/docs/k8s/kubernetes_cka-0bb": {
     "__comp": "__comp---theme-doc-item-178-a40",

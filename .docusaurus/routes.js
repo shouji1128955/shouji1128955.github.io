@@ -94,20 +94,20 @@ export default [
   },
   {
     path: '/search',
-    component: ComponentCreator('/search', '822'),
+    component: ComponentCreator('/search', '5de'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7f1'),
+    component: ComponentCreator('/docs', 'ae3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3cd'),
+        component: ComponentCreator('/docs', '283'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3a0'),
+            component: ComponentCreator('/docs', '87b'),
             routes: [
               {
                 path: '/docs/DevOps/ELK/elasticsearch操作',
@@ -321,7 +321,7 @@ export default [
               },
               {
                 path: '/docs/k8s/k8s_studay',
-                component: ComponentCreator('/docs/k8s/k8s_studay', '6f9'),
+                component: ComponentCreator('/docs/k8s/k8s_studay', '43d'),
                 exact: true,
                 sidebar: "k8s"
               },

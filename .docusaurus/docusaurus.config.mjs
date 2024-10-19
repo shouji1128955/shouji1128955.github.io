@@ -14,18 +14,6 @@ export default {
   "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "themes": [
-    [
-      "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
-      {
-        "hashed": true,
-        "language": [
-          "en",
-          "zh"
-        ]
-      }
-    ]
-  ],
   "i18n": {
     "defaultLocale": "zh-CN",
     "locales": [
@@ -57,6 +45,14 @@ export default {
     ]
   ],
   "themeConfig": {
+    "algolia": {
+      "apiKey": "20dd8161d2fed0b6a3ef08cad53b3cd2",
+      "appId": "7IFH9CB2IS",
+      "indexName": "docsearchinter",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "docs": {
       "sidebar": {
         "hideable": true,
@@ -538,6 +534,7 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
+  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
