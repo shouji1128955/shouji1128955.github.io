@@ -27,8 +27,6 @@ jobs:
       - name: Build website
         run: yarn build
 
-      - name: List build directory
-        run: ls -la ./build
 
       #定义构建输出目录
       - name: Upload Build Artifact 
@@ -38,6 +36,10 @@ jobs:
 
       - name: Create CNAME file
         run: echo 'book.onlinebookshell.co.in' > ./build/CNAME          
+
+      - name: List build directory
+        run: ls -la ./build
+
 
   deploy:
     name: Deploy to GitHub Pages
