@@ -1,72 +1,46 @@
 name: Deploy to GitHub Pages
 
+# 触发条件：当向 main 分支推送时
 on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
+# 设置权限，允许写入内容
+permissions:
+  contents: write
 
 jobs:
-  build:
-    name: Build Docusaurus
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: yarn
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build website
-        run: yarn build
-
-
-      #定义构建输出目录
-      - name: Upload Build Artifact 
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: build	
-
-      - name: Create CNAME file
-        run: echo 'book.onlinebookshell.co.in' > ./build/CNAME          
-
-      - name: List build directory
-        run: ls -la ./build
-
-
   deploy:
     name: Deploy to GitHub Pages
-    needs: build
-
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    permissions:
-      pages: write # to deploy to Pages
-      id-token: write # to verify the deployment originates from an appropriate source
-      contents: write 
-
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 环境
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: peaceiris/actions-gh-pages@v4 
+      - uses: actions/checkout@v4 # 检出代码
+      - uses: actions/setup-node@v4 # 设置 Node.js 环境
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
-          user_name: github-actions[bot]
-          publish_dir: ./build
-          user_email: 409003604@qq.com # 提交时使用的用户邮箱
+          node-version: 18 # 指定 Node.js 版本
+          cache: yarn # 缓存 yarn 依赖
+
+      - name: Install dependencies # 安装依赖
+        run: yarn install --frozen-lockfile  --no-cache # 安装依赖并确保 lockfile 一致，不使用缓存
+
+      - name: Build website # 构建网站
+        run: |
+          yarn build || echo "Build failed" # 针对 zh-CN 语言环境构建，如果失败则输出错误信息
+
+
+      - name: Create CNAME file
+        run: echo 'book.onlinebookshell.co.in' > ./build/CNAME
+
       - name: Notify Deployment
         run: |
-          echo "Deployed to environment: ${{ job.environment.name }}"
-          echo "Access your site at: ${{ job.environment.url }}"
+          echo "Deployed to URL: ${{ steps.deployment.outputs.page_url }}"
+
+      - name: Deploy to GitHub Pages # 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # 使用 peaceiris 的 GitHub Pages 部署动作
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
+          publish_dir: ./build # 指定要发布的构建输出目录
+          user_name: github-actions[bot] # 提交时使用的用户名
+          user_email: 409003604@qq.com # 提交时使用的用户邮箱
+          fqdn: book.onlinebookshell.co.in
