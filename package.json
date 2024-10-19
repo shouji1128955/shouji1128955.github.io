@@ -1,11 +1,11 @@
 {
-  "name": "my-website",
+  "name": "bookshell",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && echo 'book.onlinebookshell.co.in' > build/CNAME",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

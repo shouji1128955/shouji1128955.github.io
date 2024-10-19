@@ -5,18 +5,18 @@
   "source": "@site/docs/Golang/golang基础/1.Go核心编程2023/golang.md",
   "sourceDirName": "Golang/golang基础/1.Go核心编程2023",
   "slug": "/Golang/golang基础/Go核心编程2023/golang",
-  "permalink": "/docs/Golang/golang基础/Go核心编程2023/golang",
+  "permalink": "/en/docs/Golang/golang基础/Go核心编程2023/golang",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang基础/1.Go核心编程2023/golang.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "frontMatter": {},
   "sidebar": "GoalngJichu",
   "next": {
     "title": "Config",
-    "permalink": "/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件"
+    "permalink": "/en/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件"
   }
 }

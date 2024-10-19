@@ -5,22 +5,22 @@
   "source": "@site/docs/Golang/VUE/vue入门教程/vue入门教程2.md",
   "sourceDirName": "Golang/VUE/vue入门教程",
   "slug": "/Golang/VUE/vue入门教程/vue入门教程2",
-  "permalink": "/docs/Golang/VUE/vue入门教程/vue入门教程2",
+  "permalink": "/en/docs/Golang/VUE/vue入门教程/vue入门教程2",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/VUE/vue入门教程/vue入门教程2.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "frontMatter": {},
   "sidebar": "GoalngVue",
   "previous": {
     "title": "vue入门教程1",
-    "permalink": "/docs/Golang/VUE/vue入门教程/vue入门教程1"
+    "permalink": "/en/docs/Golang/VUE/vue入门教程/vue入门教程1"
   },
   "next": {
     "title": "vue环境安装",
-    "permalink": "/docs/Golang/VUE/vue入门教程/vue环境安装"
+    "permalink": "/en/docs/Golang/VUE/vue入门教程/vue环境安装"
   }
 }

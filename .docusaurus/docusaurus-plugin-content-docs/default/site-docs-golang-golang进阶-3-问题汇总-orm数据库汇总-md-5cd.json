@@ -5,18 +5,18 @@
   "source": "@site/docs/Golang/golang进阶/3.问题汇总/ORM数据库汇总.md",
   "sourceDirName": "Golang/golang进阶/3.问题汇总",
   "slug": "/Golang/golang进阶/问题汇总/ORM数据库汇总",
-  "permalink": "/docs/Golang/golang进阶/问题汇总/ORM数据库汇总",
+  "permalink": "/en/docs/Golang/golang进阶/问题汇总/ORM数据库汇总",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang进阶/3.问题汇总/ORM数据库汇总.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "frontMatter": {},
   "sidebar": "GoalngJinjie",
   "previous": {
     "title": "Mysql",
-    "permalink": "/docs/Golang/golang进阶/mysql数据库/Mysql基础"
+    "permalink": "/en/docs/Golang/golang进阶/mysql数据库/Mysql基础"
   }
 }

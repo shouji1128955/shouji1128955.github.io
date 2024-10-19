@@ -5,23 +5,23 @@
   "source": "@site/docs/Sre/2-中间件/6.YAPI.md",
   "sourceDirName": "Sre/2-中间件",
   "slug": "/Sre/中间件/YAPI",
-  "permalink": "/docs/Sre/中间件/YAPI",
+  "permalink": "/en/docs/Sre/中间件/YAPI",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/2-中间件/6.YAPI.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 6,
   "frontMatter": {},
   "sidebar": "SreMiddleSoft",
   "previous": {
     "title": "Postgresql",
-    "permalink": "/docs/Sre/中间件/Postgresql"
+    "permalink": "/en/docs/Sre/中间件/Postgresql"
   },
   "next": {
     "title": "databasebackup-restore",
-    "permalink": "/docs/Sre/中间件/databasebackup-restore"
+    "permalink": "/en/docs/Sre/中间件/databasebackup-restore"
   }
 }

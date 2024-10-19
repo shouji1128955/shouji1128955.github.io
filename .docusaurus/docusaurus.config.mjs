@@ -8,7 +8,7 @@ export default {
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://book.onlinebookshell.co.in",
-  "baseUrl": "/",
+  "baseUrl": "/en/",
   "organizationName": "shouji1128955",
   "projectName": "bookshell",
   "trailingSlash": false,

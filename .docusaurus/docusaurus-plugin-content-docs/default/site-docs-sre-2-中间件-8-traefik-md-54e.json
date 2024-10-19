@@ -5,23 +5,23 @@
   "source": "@site/docs/Sre/2-中间件/8.Traefik.md",
   "sourceDirName": "Sre/2-中间件",
   "slug": "/Sre/中间件/Traefik",
-  "permalink": "/docs/Sre/中间件/Traefik",
+  "permalink": "/en/docs/Sre/中间件/Traefik",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/2-中间件/8.Traefik.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 8,
   "frontMatter": {},
   "sidebar": "SreMiddleSoft",
   "previous": {
     "title": "databasebackup-restore",
-    "permalink": "/docs/Sre/中间件/databasebackup-restore"
+    "permalink": "/en/docs/Sre/中间件/databasebackup-restore"
   },
   "next": {
     "title": "TongWeb",
-    "permalink": "/docs/Sre/中间件/TongWeb"
+    "permalink": "/en/docs/Sre/中间件/TongWeb"
   }
 }

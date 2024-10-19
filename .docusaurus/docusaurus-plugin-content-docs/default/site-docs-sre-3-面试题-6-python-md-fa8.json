@@ -5,23 +5,23 @@
   "source": "@site/docs/Sre/3-面试题/6.python.md",
   "sourceDirName": "Sre/3-面试题",
   "slug": "/Sre/面试题/python",
-  "permalink": "/docs/Sre/面试题/python",
+  "permalink": "/en/docs/Sre/面试题/python",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/3-面试题/6.python.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 6,
   "frontMatter": {},
   "sidebar": "SreMianshi",
   "previous": {
     "title": "缓存服务",
-    "permalink": "/docs/Sre/面试题/缓存服务"
+    "permalink": "/en/docs/Sre/面试题/缓存服务"
   },
   "next": {
     "title": "容器技术",
-    "permalink": "/docs/Sre/面试题/容器技术"
+    "permalink": "/en/docs/Sre/面试题/容器技术"
   }
 }

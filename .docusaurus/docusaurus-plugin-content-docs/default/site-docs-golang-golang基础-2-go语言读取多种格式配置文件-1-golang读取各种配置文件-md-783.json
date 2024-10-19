@@ -5,23 +5,23 @@
   "source": "@site/docs/Golang/golang基础/2.go语言读取多种格式配置文件/1.Golang读取各种配置文件.md",
   "sourceDirName": "Golang/golang基础/2.go语言读取多种格式配置文件",
   "slug": "/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
-  "permalink": "/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
+  "permalink": "/en/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang基础/2.go语言读取多种格式配置文件/1.Golang读取各种配置文件.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 1,
   "frontMatter": {},
   "sidebar": "GoalngJichu",
   "previous": {
     "title": "Go语言开篇介绍",
-    "permalink": "/docs/Golang/golang基础/Go核心编程2023/golang"
+    "permalink": "/en/docs/Golang/golang基础/Go核心编程2023/golang"
   },
   "next": {
     "title": "Goproxy.cn",
-    "permalink": "/docs/Golang/golang基础/golang环境信息配置/golang环境信息配置"
+    "permalink": "/en/docs/Golang/golang基础/golang环境信息配置/golang环境信息配置"
   }
 }

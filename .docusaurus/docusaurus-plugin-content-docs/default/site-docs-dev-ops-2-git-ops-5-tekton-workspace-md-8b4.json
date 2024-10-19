@@ -5,23 +5,23 @@
   "source": "@site/docs/DevOps/2-gitOps/5-Tekton-workspace.md",
   "sourceDirName": "DevOps/2-gitOps",
   "slug": "/DevOps/gitOps/Tekton-workspace",
-  "permalink": "/docs/DevOps/gitOps/Tekton-workspace",
+  "permalink": "/en/docs/DevOps/gitOps/Tekton-workspace",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/2-gitOps/5-Tekton-workspace.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 5,
   "frontMatter": {},
   "sidebar": "DevOpsGitOps",
   "previous": {
     "title": "Tekton-sidecar",
-    "permalink": "/docs/DevOps/gitOps/Tekton-sidecar"
+    "permalink": "/en/docs/DevOps/gitOps/Tekton-sidecar"
   },
   "next": {
     "title": "Tekton-triggers",
-    "permalink": "/docs/DevOps/gitOps/Tekton-triggers"
+    "permalink": "/en/docs/DevOps/gitOps/Tekton-triggers"
   }
 }

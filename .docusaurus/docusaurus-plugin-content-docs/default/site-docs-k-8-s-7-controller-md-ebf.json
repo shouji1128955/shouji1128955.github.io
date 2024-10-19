@@ -5,19 +5,19 @@
   "source": "@site/docs/k8s/7.Controller.md",
   "sourceDirName": "k8s",
   "slug": "/k8s/Controller",
-  "permalink": "/docs/k8s/Controller",
+  "permalink": "/en/docs/k8s/Controller",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/k8s/7.Controller.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 7,
   "frontMatter": {},
   "sidebar": "k8s",
   "previous": {
     "title": "ansible安装k8s-1.24.12",
-    "permalink": "/docs/k8s/ansible安装k8s-1.24.12"
+    "permalink": "/en/docs/k8s/ansible安装k8s-1.24.12"
   }
 }

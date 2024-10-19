@@ -5,19 +5,19 @@
   "source": "@site/docs/Sre/2-中间件/16.cilium.md",
   "sourceDirName": "Sre/2-中间件",
   "slug": "/Sre/中间件/cilium",
-  "permalink": "/docs/Sre/中间件/cilium",
+  "permalink": "/en/docs/Sre/中间件/cilium",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/2-中间件/16.cilium.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 16,
   "frontMatter": {},
   "sidebar": "SreMiddleSoft",
   "previous": {
     "title": "zookeeper",
-    "permalink": "/docs/Sre/中间件/zookeeper"
+    "permalink": "/en/docs/Sre/中间件/zookeeper"
   }
 }

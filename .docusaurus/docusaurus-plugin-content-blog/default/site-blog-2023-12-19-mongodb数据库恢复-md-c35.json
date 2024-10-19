@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/2023/12/19/mongodb数据库恢复",
+  "permalink": "/en/blog/2023/12/19/mongodb数据库恢复",
   "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog/blog/2023/12-19mongodb数据库恢复.md",
   "source": "@site/blog/2023/12-19mongodb数据库恢复.md",
   "title": "mongodb数据库恢复",
@@ -13,10 +13,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "npm常用命令",
-    "permalink": "/blog/2024/4.npm操作"
+    "permalink": "/en/blog/2024/4.npm操作"
   },
   "nextItem": {
     "title": "config-docusaurus-v2",
-    "permalink": "/blog/config-docusaurus-v2"
+    "permalink": "/en/blog/config-docusaurus-v2"
   }
 }

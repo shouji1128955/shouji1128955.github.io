@@ -5,19 +5,19 @@
   "source": "@site/docs/Sre/1-日常运维/12.网络相关.md",
   "sourceDirName": "Sre/1-日常运维",
   "slug": "/Sre/日常运维/网络相关",
-  "permalink": "/docs/Sre/日常运维/网络相关",
+  "permalink": "/en/docs/Sre/日常运维/网络相关",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/1-日常运维/12.网络相关.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 12,
   "frontMatter": {},
   "sidebar": "SreOper",
   "previous": {
     "title": "安全配置",
-    "permalink": "/docs/Sre/日常运维/安全配置"
+    "permalink": "/en/docs/Sre/日常运维/安全配置"
   }
 }

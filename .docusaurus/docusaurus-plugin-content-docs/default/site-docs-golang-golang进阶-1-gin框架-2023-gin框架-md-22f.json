@@ -5,18 +5,18 @@
   "source": "@site/docs/Golang/golang进阶/1.gin框架2023/Gin框架.md",
   "sourceDirName": "Golang/golang进阶/1.gin框架2023",
   "slug": "/Golang/golang进阶/gin框架2023/Gin框架",
-  "permalink": "/docs/Golang/golang进阶/gin框架2023/Gin框架",
+  "permalink": "/en/docs/Golang/golang进阶/gin框架2023/Gin框架",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Golang/golang进阶/1.gin框架2023/Gin框架.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "frontMatter": {},
   "sidebar": "GoalngJinjie",
   "next": {
     "title": "Mysql",
-    "permalink": "/docs/Golang/golang进阶/mysql数据库/Mysql基础"
+    "permalink": "/en/docs/Golang/golang进阶/mysql数据库/Mysql基础"
   }
 }

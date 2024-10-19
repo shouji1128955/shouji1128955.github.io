@@ -5,23 +5,23 @@
   "source": "@site/docs/Sre/2-中间件/11.nginx.md",
   "sourceDirName": "Sre/2-中间件",
   "slug": "/Sre/中间件/nginx",
-  "permalink": "/docs/Sre/中间件/nginx",
+  "permalink": "/en/docs/Sre/中间件/nginx",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/2-中间件/11.nginx.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "Author",
-  "lastUpdatedAt": 1539502055000,
+  "lastUpdatedBy": "zhanglaiqiang",
+  "lastUpdatedAt": 1728577316000,
   "sidebarPosition": 11,
   "frontMatter": {},
   "sidebar": "SreMiddleSoft",
   "previous": {
     "title": "openvpn",
-    "permalink": "/docs/Sre/中间件/openvpn"
+    "permalink": "/en/docs/Sre/中间件/openvpn"
   },
   "next": {
     "title": "clickhouse",
-    "permalink": "/docs/Sre/中间件/clickhouse"
+    "permalink": "/en/docs/Sre/中间件/clickhouse"
   }
 }
