@@ -54,9 +54,9 @@ jobs:
         id: deployment
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
+          #github_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的 token
           publish_dir: ./build # 指定要发布的构建输出目录
-          user_name: github-actions[bot] # 提交时使用的用户名
+          #user_name: github-actions[bot]  提交时使用的用户名
           user_email: 409003604@qq.com # 提交时使用的用户邮箱
       - name: Notify Deployment
         run: |
