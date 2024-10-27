@@ -46,7 +46,7 @@ export default {
   ],
   "themeConfig": {
     "algolia": {
-      "apiKey": "20dd8161d2fed0b6a3ef08cad53b3cd2",
+      "apiKey": "d35a7b071501b01fb4266109a5b7c107",
       "appId": "7IFH9CB2IS",
       "indexName": "docsearchinter",
       "contextualSearch": true,
