@@ -4,7 +4,7 @@
         <title>LiteShell Blog</title>
         <link>https://book.onlinebookshell.co.in/blog</link>
         <description>LiteShell Blog</description>
-        <lastBuildDate>Sat, 23 Nov 2024 13:56:28 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 23 Nov 2024 14:35:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[npm常用命令]]></title>
             <link>https://book.onlinebookshell.co.in/blog/2024/4.npm操作</link>
             <guid>https://book.onlinebookshell.co.in/blog/2024/4.npm操作</guid>
-            <pubDate>Sat, 23 Nov 2024 13:56:28 GMT</pubDate>
+            <pubDate>Sat, 23 Nov 2024 14:35:01 GMT</pubDate>
             <description><![CDATA[简介]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="简介">简介<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#%E7%AE%80%E4%BB%8B" class="hash-link" aria-label="简介的直接链接" title="简介的直接链接">​</a></h2>
 <p>npm是跟随node一起安装的包（模块）管理器。常见的使用场景有以下几种：</p>
