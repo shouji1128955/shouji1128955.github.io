@@ -5,14 +5,14 @@
   "source": "@site/docs/DevOps/6-terraform/terraform.md",
   "sourceDirName": "DevOps/6-terraform",
   "slug": "/DevOps/terraform/terraform",
-  "permalink": "/en/docs/DevOps/terraform/terraform",
+  "permalink": "/docs/DevOps/terraform/terraform",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/DevOps/6-terraform/terraform.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {},
   "sidebar": "DevOpsterraform"
 }

@@ -5,14 +5,14 @@
   "source": "@site/docs/Prometheus/grafana/grafana.md",
   "sourceDirName": "Prometheus/grafana",
   "slug": "/Prometheus/grafana/",
-  "permalink": "/en/docs/Prometheus/grafana/",
+  "permalink": "/docs/Prometheus/grafana/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Prometheus/grafana/grafana.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "frontMatter": {},
   "sidebar": "PrometheusGrafana"
 }

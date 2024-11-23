@@ -1,418 +1,423 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/en/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/en/docs",
+          "path": "/docs",
           "mainDocId": "k8s/operator",
           "docs": [
             {
               "id": "DevOps/ELK/elasticsearch操作",
-              "path": "/en/docs/DevOps/ELK/elasticsearch操作",
+              "path": "/docs/DevOps/ELK/elasticsearch操作",
               "sidebar": "DevOpsElk"
             },
             {
               "id": "DevOps/ELK/ELK测试部署",
-              "path": "/en/docs/DevOps/ELK/ELK测试部署",
+              "path": "/docs/DevOps/ELK/ELK测试部署",
               "sidebar": "DevOpsElk"
             },
             {
               "id": "DevOps/ELK/ELK日志告警",
-              "path": "/en/docs/DevOps/ELK/ELK日志告警",
+              "path": "/docs/DevOps/ELK/ELK日志告警",
               "sidebar": "DevOpsElk"
             },
             {
-              "id": "DevOps/gitOps/Tekton-catalog",
-              "path": "/en/docs/DevOps/gitOps/Tekton-catalog",
+              "id": "DevOps/gitOps/argocd/argocd使用",
+              "path": "/docs/DevOps/gitOps/argocd/argocd使用",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/tekton-results",
-              "path": "/en/docs/DevOps/gitOps/tekton-results",
+              "id": "DevOps/gitOps/tekton/Tekton-catalog",
+              "path": "/docs/DevOps/gitOps/tekton/Tekton-catalog",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/Tekton-sidecar",
-              "path": "/en/docs/DevOps/gitOps/Tekton-sidecar",
+              "id": "DevOps/gitOps/tekton/tekton-results",
+              "path": "/docs/DevOps/gitOps/tekton/tekton-results",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/Tekton-triggers",
-              "path": "/en/docs/DevOps/gitOps/Tekton-triggers",
+              "id": "DevOps/gitOps/tekton/Tekton-sidecar",
+              "path": "/docs/DevOps/gitOps/tekton/Tekton-sidecar",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/Tekton-workspace",
-              "path": "/en/docs/DevOps/gitOps/Tekton-workspace",
+              "id": "DevOps/gitOps/tekton/Tekton-triggers",
+              "path": "/docs/DevOps/gitOps/tekton/Tekton-triggers",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/tekton安装",
-              "path": "/en/docs/DevOps/gitOps/tekton安装",
+              "id": "DevOps/gitOps/tekton/Tekton-workspace",
+              "path": "/docs/DevOps/gitOps/tekton/Tekton-workspace",
               "sidebar": "DevOpsGitOps"
             },
             {
-              "id": "DevOps/gitOps/tekton拉取代码",
-              "path": "/en/docs/DevOps/gitOps/tekton拉取代码",
+              "id": "DevOps/gitOps/tekton/tekton安装",
+              "path": "/docs/DevOps/gitOps/tekton/tekton安装",
+              "sidebar": "DevOpsGitOps"
+            },
+            {
+              "id": "DevOps/gitOps/tekton/tekton拉取代码",
+              "path": "/docs/DevOps/gitOps/tekton/tekton拉取代码",
               "sidebar": "DevOpsGitOps"
             },
             {
               "id": "DevOps/jenkins/通过ansible实现服务发布/配置ansible",
-              "path": "/en/docs/DevOps/jenkins/通过ansible实现服务发布/配置ansible",
+              "path": "/docs/DevOps/jenkins/通过ansible实现服务发布/配置ansible",
               "sidebar": "DevOpsJenkins"
             },
             {
               "id": "DevOps/jenkins/hello",
-              "path": "/en/docs/DevOps/jenkins/hello",
+              "path": "/docs/DevOps/jenkins/hello",
               "sidebar": "DevOpsJenkins"
             },
             {
               "id": "DevOps/jenkins/jenkins安装配置/jenkins安装配置",
-              "path": "/en/docs/DevOps/jenkins/jenkins安装配置/jenkins安装配置",
+              "path": "/docs/DevOps/jenkins/jenkins安装配置/jenkins安装配置",
               "sidebar": "DevOpsJenkins"
             },
             {
               "id": "DevOps/observability/OpenTelemetry/OpenTelemetry",
-              "path": "/en/docs/DevOps/observability/OpenTelemetry/",
+              "path": "/docs/DevOps/observability/OpenTelemetry/",
               "sidebar": "DevOpsobservability"
             },
             {
               "id": "DevOps/skywalking/elasticsearch容器集群安装",
-              "path": "/en/docs/DevOps/skywalking/elasticsearch容器集群安装",
+              "path": "/docs/DevOps/skywalking/elasticsearch容器集群安装",
               "sidebar": "DevOpsSkywalking"
             },
             {
               "id": "DevOps/skywalking/zookeeper安装",
-              "path": "/en/docs/DevOps/skywalking/zookeeper安装",
+              "path": "/docs/DevOps/skywalking/zookeeper安装",
               "sidebar": "DevOpsSkywalking"
             },
             {
               "id": "DevOps/terraform/terraform",
-              "path": "/en/docs/DevOps/terraform/terraform",
+              "path": "/docs/DevOps/terraform/terraform",
               "sidebar": "DevOpsterraform"
             },
             {
               "id": "Golang/golang基础/笔记总结/笔记总结",
-              "path": "/en/docs/Golang/golang基础/笔记总结/笔记总结",
+              "path": "/docs/Golang/golang基础/笔记总结/笔记总结",
               "sidebar": "GoalngJichu"
             },
             {
               "id": "Golang/golang基础/Go核心编程2023/golang",
-              "path": "/en/docs/Golang/golang基础/Go核心编程2023/golang",
+              "path": "/docs/Golang/golang基础/Go核心编程2023/golang",
               "sidebar": "GoalngJichu"
             },
             {
               "id": "Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
-              "path": "/en/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
+              "path": "/docs/Golang/golang基础/go语言读取多种格式配置文件/Golang读取各种配置文件",
               "sidebar": "GoalngJichu"
             },
             {
               "id": "Golang/golang基础/golang环境信息配置/golang环境信息配置",
-              "path": "/en/docs/Golang/golang基础/golang环境信息配置/golang环境信息配置",
+              "path": "/docs/Golang/golang基础/golang环境信息配置/golang环境信息配置",
               "sidebar": "GoalngJichu"
             },
             {
               "id": "Golang/golang进阶/问题汇总/ORM数据库汇总",
-              "path": "/en/docs/Golang/golang进阶/问题汇总/ORM数据库汇总",
+              "path": "/docs/Golang/golang进阶/问题汇总/ORM数据库汇总",
               "sidebar": "GoalngJinjie"
             },
             {
               "id": "Golang/golang进阶/gin框架2023/Gin框架",
-              "path": "/en/docs/Golang/golang进阶/gin框架2023/Gin框架",
+              "path": "/docs/Golang/golang进阶/gin框架2023/Gin框架",
               "sidebar": "GoalngJinjie"
             },
             {
               "id": "Golang/golang进阶/mysql数据库/Mysql基础",
-              "path": "/en/docs/Golang/golang进阶/mysql数据库/Mysql基础",
+              "path": "/docs/Golang/golang进阶/mysql数据库/Mysql基础",
               "sidebar": "GoalngJinjie"
             },
             {
               "id": "Golang/golang运维/项目1-Bingo/Bingo",
-              "path": "/en/docs/Golang/golang运维/项目1-Bingo/Bingo",
+              "path": "/docs/Golang/golang运维/项目1-Bingo/Bingo",
               "sidebar": "GoalngOper"
             },
             {
               "id": "Golang/VUE/vue入门教程/html基础",
-              "path": "/en/docs/Golang/VUE/vue入门教程/html基础",
+              "path": "/docs/Golang/VUE/vue入门教程/html基础",
               "sidebar": "GoalngVue"
             },
             {
               "id": "Golang/VUE/vue入门教程/vue环境安装",
-              "path": "/en/docs/Golang/VUE/vue入门教程/vue环境安装",
+              "path": "/docs/Golang/VUE/vue入门教程/vue环境安装",
               "sidebar": "GoalngVue"
             },
             {
               "id": "Golang/VUE/vue入门教程/vue入门教程1",
-              "path": "/en/docs/Golang/VUE/vue入门教程/vue入门教程1",
+              "path": "/docs/Golang/VUE/vue入门教程/vue入门教程1",
               "sidebar": "GoalngVue"
             },
             {
               "id": "Golang/VUE/vue入门教程/vue入门教程2",
-              "path": "/en/docs/Golang/VUE/vue入门教程/vue入门教程2",
+              "path": "/docs/Golang/VUE/vue入门教程/vue入门教程2",
               "sidebar": "GoalngVue"
             },
             {
               "id": "Golang/VUE/vue入门教程/vue项目学习",
-              "path": "/en/docs/Golang/VUE/vue入门教程/vue项目学习",
+              "path": "/docs/Golang/VUE/vue入门教程/vue项目学习",
               "sidebar": "GoalngVue"
             },
             {
               "id": "Java/JAVA/admin组件",
-              "path": "/en/docs/Java/JAVA/admin组件",
+              "path": "/docs/Java/JAVA/admin组件",
               "sidebar": "JAVA"
             },
             {
               "id": "k8s/更新内核",
-              "path": "/en/docs/k8s/更新内核",
+              "path": "/docs/k8s/更新内核",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/ansible安装k8s-1.24.12",
-              "path": "/en/docs/k8s/ansible安装k8s-1.24.12",
+              "path": "/docs/k8s/ansible安装k8s-1.24.12",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/Controller",
-              "path": "/en/docs/k8s/Controller",
+              "path": "/docs/k8s/Controller",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/helm",
-              "path": "/en/docs/k8s/helm",
+              "path": "/docs/k8s/helm",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/k8s_studay",
-              "path": "/en/docs/k8s/k8s_studay",
+              "path": "/docs/k8s/k8s_studay",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/kubernetes_cka",
-              "path": "/en/docs/k8s/kubernetes_cka",
+              "path": "/docs/k8s/kubernetes_cka",
               "sidebar": "k8s"
             },
             {
               "id": "k8s/operator",
-              "path": "/en/docs/k8s/operator",
+              "path": "/docs/k8s/operator",
               "sidebar": "k8s"
             },
             {
               "id": "Prometheus/alertManager/alertmanager告警配置",
-              "path": "/en/docs/Prometheus/alertManager/alertmanager告警配置",
+              "path": "/docs/Prometheus/alertManager/alertmanager告警配置",
               "sidebar": "PrometheusAlert"
             },
             {
               "id": "Prometheus/grafana/grafana",
-              "path": "/en/docs/Prometheus/grafana/",
+              "path": "/docs/Prometheus/grafana/",
               "sidebar": "PrometheusGrafana"
             },
             {
               "id": "Prometheus/prometheus/告警指标汇总",
-              "path": "/en/docs/Prometheus/prometheus/告警指标汇总",
+              "path": "/docs/Prometheus/prometheus/告警指标汇总",
               "sidebar": "PrometheusServer"
             },
             {
               "id": "Prometheus/prometheus/prometheus指标",
-              "path": "/en/docs/Prometheus/prometheus/prometheus指标",
+              "path": "/docs/Prometheus/prometheus/prometheus指标",
               "sidebar": "PrometheusServer"
             },
             {
               "id": "Prometheus/prometheus/ServiceMoinitor",
-              "path": "/en/docs/Prometheus/prometheus/ServiceMoinitor",
+              "path": "/docs/Prometheus/prometheus/ServiceMoinitor",
               "sidebar": "PrometheusServer"
             },
             {
               "id": "Sre/面试题/缓存服务",
-              "path": "/en/docs/Sre/面试题/缓存服务",
+              "path": "/docs/Sre/面试题/缓存服务",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/基础面试题",
-              "path": "/en/docs/Sre/面试题/基础面试题",
+              "path": "/docs/Sre/面试题/基础面试题",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/监控",
-              "path": "/en/docs/Sre/面试题/监控",
+              "path": "/docs/Sre/面试题/监控",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/容器技术",
-              "path": "/en/docs/Sre/面试题/容器技术",
+              "path": "/docs/Sre/面试题/容器技术",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/golang面试题",
-              "path": "/en/docs/Sre/面试题/golang面试题",
+              "path": "/docs/Sre/面试题/golang面试题",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/kubernetes面试题",
-              "path": "/en/docs/Sre/面试题/kubernetes面试题",
+              "path": "/docs/Sre/面试题/kubernetes面试题",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/prometheus部署文档输出",
-              "path": "/en/docs/Sre/面试题/prometheus部署文档输出",
+              "path": "/docs/Sre/面试题/prometheus部署文档输出",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/面试题/python",
-              "path": "/en/docs/Sre/面试题/python",
+              "path": "/docs/Sre/面试题/python",
               "sidebar": "SreMianshi"
             },
             {
               "id": "Sre/日常运维/安全配置",
-              "path": "/en/docs/Sre/日常运维/安全配置",
+              "path": "/docs/Sre/日常运维/安全配置",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/磁盘管理",
-              "path": "/en/docs/Sre/日常运维/磁盘管理",
+              "path": "/docs/Sre/日常运维/磁盘管理",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/计算机网络软考",
-              "path": "/en/docs/Sre/日常运维/计算机网络软考",
+              "path": "/docs/Sre/日常运维/计算机网络软考",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/脚本管理",
-              "path": "/en/docs/Sre/日常运维/脚本管理",
+              "path": "/docs/Sre/日常运维/脚本管理",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/镜像列表",
-              "path": "/en/docs/Sre/日常运维/镜像列表",
+              "path": "/docs/Sre/日常运维/镜像列表",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/网络相关",
-              "path": "/en/docs/Sre/日常运维/网络相关",
+              "path": "/docs/Sre/日常运维/网络相关",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/clickhouse集群节点重新加入",
-              "path": "/en/docs/Sre/日常运维/clickhouse集群节点重新加入",
+              "path": "/docs/Sre/日常运维/clickhouse集群节点重新加入",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/conflunce安装",
-              "path": "/en/docs/Sre/日常运维/conflunce安装",
+              "path": "/docs/Sre/日常运维/conflunce安装",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/git操作",
-              "path": "/en/docs/Sre/日常运维/git操作",
+              "path": "/docs/Sre/日常运维/git操作",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/mac办公协作",
-              "path": "/en/docs/Sre/日常运维/mac办公协作",
+              "path": "/docs/Sre/日常运维/mac办公协作",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/npm操作",
-              "path": "/en/docs/Sre/日常运维/npm操作",
+              "path": "/docs/Sre/日常运维/npm操作",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/日常运维/operator",
-              "path": "/en/docs/Sre/日常运维/operator",
+              "path": "/docs/Sre/日常运维/operator",
               "sidebar": "SreOper"
             },
             {
               "id": "Sre/中间件/cilium",
-              "path": "/en/docs/Sre/中间件/cilium",
+              "path": "/docs/Sre/中间件/cilium",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/clickhouse",
-              "path": "/en/docs/Sre/中间件/clickhouse",
+              "path": "/docs/Sre/中间件/clickhouse",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/databasebackup-restore",
-              "path": "/en/docs/Sre/中间件/databasebackup-restore",
+              "path": "/docs/Sre/中间件/databasebackup-restore",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Elasticsearch",
-              "path": "/en/docs/Sre/中间件/Elasticsearch",
+              "path": "/docs/Sre/中间件/Elasticsearch",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Harbor",
-              "path": "/en/docs/Sre/中间件/Harbor",
+              "path": "/docs/Sre/中间件/Harbor",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Mysql",
-              "path": "/en/docs/Sre/中间件/Mysql",
+              "path": "/docs/Sre/中间件/Mysql",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/nginx",
-              "path": "/en/docs/Sre/中间件/nginx",
+              "path": "/docs/Sre/中间件/nginx",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/nomad",
-              "path": "/en/docs/Sre/中间件/nomad",
+              "path": "/docs/Sre/中间件/nomad",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/openvpn",
-              "path": "/en/docs/Sre/中间件/openvpn",
+              "path": "/docs/Sre/中间件/openvpn",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Postgresql",
-              "path": "/en/docs/Sre/中间件/Postgresql",
+              "path": "/docs/Sre/中间件/Postgresql",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/pulsar",
-              "path": "/en/docs/Sre/中间件/pulsar",
+              "path": "/docs/Sre/中间件/pulsar",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Redis",
-              "path": "/en/docs/Sre/中间件/Redis",
+              "path": "/docs/Sre/中间件/Redis",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/TongWeb",
-              "path": "/en/docs/Sre/中间件/TongWeb",
+              "path": "/docs/Sre/中间件/TongWeb",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/Traefik",
-              "path": "/en/docs/Sre/中间件/Traefik",
+              "path": "/docs/Sre/中间件/Traefik",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/YAPI",
-              "path": "/en/docs/Sre/中间件/YAPI",
+              "path": "/docs/Sre/中间件/YAPI",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Sre/中间件/zookeeper",
-              "path": "/en/docs/Sre/中间件/zookeeper",
+              "path": "/docs/Sre/中间件/zookeeper",
               "sidebar": "SreMiddleSoft"
             },
             {
               "id": "Treasure/Studytour/莱卡",
-              "path": "/en/docs/Treasure/Studytour/莱卡",
+              "path": "/docs/Treasure/Studytour/莱卡",
               "sidebar": "Studytour"
             },
             {
               "id": "Treasure/Wisdom/国学经典",
-              "path": "/en/docs/Treasure/Wisdom/国学经典",
+              "path": "/docs/Treasure/Wisdom/国学经典",
               "sidebar": "Wisdom"
             }
           ],
@@ -420,128 +425,128 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/en/docs/k8s/operator",
+                "path": "/docs/k8s/operator",
                 "label": "k8s/operator"
               }
             },
             "SreOper": {
               "link": {
-                "path": "/en/docs/Sre/日常运维/operator",
+                "path": "/docs/Sre/日常运维/operator",
                 "label": "Sre/日常运维/operator"
               }
             },
             "SreMiddleSoft": {
               "link": {
-                "path": "/en/docs/Sre/中间件/Harbor",
+                "path": "/docs/Sre/中间件/Harbor",
                 "label": "Sre/中间件/Harbor"
               }
             },
             "SreMianshi": {
               "link": {
-                "path": "/en/docs/Sre/面试题/基础面试题",
+                "path": "/docs/Sre/面试题/基础面试题",
                 "label": "Sre/面试题/基础面试题"
               }
             },
             "k8s": {
               "link": {
-                "path": "/en/docs/k8s/operator",
+                "path": "/docs/k8s/operator",
                 "label": "k8s/operator"
               }
             },
             "PrometheusGrafana": {
               "link": {
-                "path": "/en/docs/Prometheus/grafana/",
+                "path": "/docs/Prometheus/grafana/",
                 "label": "Prometheus/grafana/grafana"
               }
             },
             "PrometheusServer": {
               "link": {
-                "path": "/en/docs/Prometheus/prometheus/告警指标汇总",
+                "path": "/docs/Prometheus/prometheus/告警指标汇总",
                 "label": "Prometheus/prometheus/告警指标汇总"
               }
             },
             "PrometheusAlert": {
               "link": {
-                "path": "/en/docs/Prometheus/alertManager/alertmanager告警配置",
+                "path": "/docs/Prometheus/alertManager/alertmanager告警配置",
                 "label": "Prometheus/alertManager/alertmanager告警配置"
               }
             },
             "DevOpsJenkins": {
               "link": {
-                "path": "/en/docs/DevOps/jenkins/jenkins安装配置/jenkins安装配置",
+                "path": "/docs/DevOps/jenkins/jenkins安装配置/jenkins安装配置",
                 "label": "DevOps/jenkins/jenkins安装配置/jenkins安装配置"
               }
             },
             "DevOpsGitOps": {
               "link": {
-                "path": "/en/docs/DevOps/gitOps/tekton安装",
-                "label": "DevOps/gitOps/tekton安装"
+                "path": "/docs/DevOps/gitOps/argocd/argocd使用",
+                "label": "DevOps/gitOps/argocd/argocd使用"
               }
             },
             "DevOpsElk": {
               "link": {
-                "path": "/en/docs/DevOps/ELK/ELK测试部署",
+                "path": "/docs/DevOps/ELK/ELK测试部署",
                 "label": "DevOps/ELK/ELK测试部署"
               }
             },
             "DevOpsSkywalking": {
               "link": {
-                "path": "/en/docs/DevOps/skywalking/zookeeper安装",
+                "path": "/docs/DevOps/skywalking/zookeeper安装",
                 "label": "DevOps/skywalking/zookeeper安装"
               }
             },
             "DevOpsobservability": {
               "link": {
-                "path": "/en/docs/DevOps/observability/OpenTelemetry/",
+                "path": "/docs/DevOps/observability/OpenTelemetry/",
                 "label": "OpenTelemetry"
               }
             },
             "DevOpsterraform": {
               "link": {
-                "path": "/en/docs/DevOps/terraform/terraform",
+                "path": "/docs/DevOps/terraform/terraform",
                 "label": "DevOps/terraform/terraform"
               }
             },
             "GoalngJichu": {
               "link": {
-                "path": "/en/docs/Golang/golang基础/Go核心编程2023/golang",
+                "path": "/docs/Golang/golang基础/Go核心编程2023/golang",
                 "label": "Golang/golang基础/Go核心编程2023/golang"
               }
             },
             "GoalngJinjie": {
               "link": {
-                "path": "/en/docs/Golang/golang进阶/gin框架2023/Gin框架",
+                "path": "/docs/Golang/golang进阶/gin框架2023/Gin框架",
                 "label": "Golang/golang进阶/gin框架2023/Gin框架"
               }
             },
             "GoalngOper": {
               "link": {
-                "path": "/en/docs/Golang/golang运维/项目1-Bingo/Bingo",
+                "path": "/docs/Golang/golang运维/项目1-Bingo/Bingo",
                 "label": "Golang/golang运维/项目1-Bingo/Bingo"
               }
             },
             "GoalngVue": {
               "link": {
-                "path": "/en/docs/Golang/VUE/vue入门教程/html基础",
+                "path": "/docs/Golang/VUE/vue入门教程/html基础",
                 "label": "Golang/VUE/vue入门教程/html基础"
               }
             },
             "JAVA": {
               "link": {
-                "path": "/en/docs/Java/JAVA/admin组件",
+                "path": "/docs/Java/JAVA/admin组件",
                 "label": "Java/JAVA/admin组件"
               }
             },
             "English": {},
             "Wisdom": {
               "link": {
-                "path": "/en/docs/Treasure/Wisdom/国学经典",
+                "path": "/docs/Treasure/Wisdom/国学经典",
                 "label": "Treasure/Wisdom/国学经典"
               }
             },
             "Studytour": {
               "link": {
-                "path": "/en/docs/Treasure/Studytour/莱卡",
+                "path": "/docs/Treasure/Studytour/莱卡",
                 "label": "Treasure/Studytour/莱卡"
               }
             }

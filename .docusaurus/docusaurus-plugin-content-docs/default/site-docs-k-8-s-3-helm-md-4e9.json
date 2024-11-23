@@ -5,23 +5,23 @@
   "source": "@site/docs/k8s/3.helm.md",
   "sourceDirName": "k8s",
   "slug": "/k8s/helm",
-  "permalink": "/en/docs/k8s/helm",
+  "permalink": "/docs/k8s/helm",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/k8s/3.helm.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 3,
   "frontMatter": {},
   "sidebar": "k8s",
   "previous": {
     "title": "k8s_studay",
-    "permalink": "/en/docs/k8s/k8s_studay"
+    "permalink": "/docs/k8s/k8s_studay"
   },
   "next": {
     "title": "kubernetes_cka",
-    "permalink": "/en/docs/k8s/kubernetes_cka"
+    "permalink": "/docs/k8s/kubernetes_cka"
   }
 }

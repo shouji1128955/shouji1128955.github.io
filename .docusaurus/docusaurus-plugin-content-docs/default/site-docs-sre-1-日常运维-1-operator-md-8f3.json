@@ -5,19 +5,19 @@
   "source": "@site/docs/Sre/1-日常运维/1.operator.md",
   "sourceDirName": "Sre/1-日常运维",
   "slug": "/Sre/日常运维/operator",
-  "permalink": "/en/docs/Sre/日常运维/operator",
+  "permalink": "/docs/Sre/日常运维/operator",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/1-日常运维/1.operator.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 1,
   "frontMatter": {},
   "sidebar": "SreOper",
   "next": {
     "title": "镜像列表",
-    "permalink": "/en/docs/Sre/日常运维/镜像列表"
+    "permalink": "/docs/Sre/日常运维/镜像列表"
   }
 }

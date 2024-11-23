@@ -5,23 +5,23 @@
   "source": "@site/docs/k8s/6.ansible安装k8s-1.24.12.md",
   "sourceDirName": "k8s",
   "slug": "/k8s/ansible安装k8s-1.24.12",
-  "permalink": "/en/docs/k8s/ansible安装k8s-1.24.12",
+  "permalink": "/docs/k8s/ansible安装k8s-1.24.12",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/k8s/6.ansible安装k8s-1.24.12.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 6,
   "frontMatter": {},
   "sidebar": "k8s",
   "previous": {
     "title": "更新内核",
-    "permalink": "/en/docs/k8s/更新内核"
+    "permalink": "/docs/k8s/更新内核"
   },
   "next": {
     "title": "控制器 CRD 介绍",
-    "permalink": "/en/docs/k8s/Controller"
+    "permalink": "/docs/k8s/Controller"
   }
 }

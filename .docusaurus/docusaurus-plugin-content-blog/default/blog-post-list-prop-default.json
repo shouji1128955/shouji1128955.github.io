@@ -3,25 +3,25 @@
   "items": [
     {
       "title": "npm常用命令",
-      "permalink": "/en/blog/2024/4.npm操作",
+      "permalink": "/blog/2024/4.npm操作",
       "unlisted": false,
       "date": "2024-10-10T16:21:56.000Z"
     },
     {
       "title": "mongodb数据库恢复",
-      "permalink": "/en/blog/2023/12/19/mongodb数据库恢复",
+      "permalink": "/blog/2023/12/19/mongodb数据库恢复",
       "unlisted": false,
       "date": "2023-12-19T00:00:00.000Z"
     },
     {
       "title": "config-docusaurus-v2",
-      "permalink": "/en/blog/config-docusaurus-v2",
+      "permalink": "/blog/config-docusaurus-v2",
       "unlisted": false,
       "date": "2023-10-18T00:00:00.000Z"
     },
     {
       "title": "github结合actions实现自动化部署",
-      "permalink": "/en/blog/github结合actions实现自动化部署",
+      "permalink": "/blog/github结合actions实现自动化部署",
       "unlisted": false,
       "date": "2023-10-13T00:00:00.000Z"
     }

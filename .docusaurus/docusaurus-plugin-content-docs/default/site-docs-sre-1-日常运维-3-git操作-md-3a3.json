@@ -5,23 +5,23 @@
   "source": "@site/docs/Sre/1-日常运维/3.git操作.md",
   "sourceDirName": "Sre/1-日常运维",
   "slug": "/Sre/日常运维/git操作",
-  "permalink": "/en/docs/Sre/日常运维/git操作",
+  "permalink": "/docs/Sre/日常运维/git操作",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/shouji1128955/bookshell/edit/main/docs/Sre/1-日常运维/3.git操作.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": "zhanglaiqiang",
-  "lastUpdatedAt": 1728577316000,
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
   "sidebarPosition": 3,
   "frontMatter": {},
   "sidebar": "SreOper",
   "previous": {
     "title": "镜像列表",
-    "permalink": "/en/docs/Sre/日常运维/镜像列表"
+    "permalink": "/docs/Sre/日常运维/镜像列表"
   },
   "next": {
     "title": "npm常用命令",
-    "permalink": "/en/docs/Sre/日常运维/npm操作"
+    "permalink": "/docs/Sre/日常运维/npm操作"
   }
 }
