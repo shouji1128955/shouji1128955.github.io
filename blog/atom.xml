@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://book.onlinebookshell.co.in/blog</id>
     <title>LiteShell Blog</title>
-    <updated>2024-12-16T17:44:56.000Z</updated>
+    <updated>2025-01-17T16:49:23.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://book.onlinebookshell.co.in/blog"/>
     <subtitle>LiteShell Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[npm常用命令]]></title>
         <id>https://book.onlinebookshell.co.in/blog/2024/4.npm操作</id>
         <link href="https://book.onlinebookshell.co.in/blog/2024/4.npm操作"/>
-        <updated>2024-12-16T17:44:56.000Z</updated>
+        <updated>2025-01-17T16:49:23.000Z</updated>
         <summary type="html"><![CDATA[简介]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="简介">简介<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#%E7%AE%80%E4%BB%8B" class="hash-link" aria-label="简介的直接链接" title="简介的直接链接">​</a></h2>
 <p>npm是跟随node一起安装的包（模块）管理器。常见的使用场景有以下几种：</p>
@@ -57,7 +57,7 @@
 <p>nrm(npm registry manager )是npm的镜像源管理工具，有时候国外资源太慢，使用这个就可以快速地在 npm 源间切换</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="nrm的安装">nrm的安装<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#nrm%E7%9A%84%E5%AE%89%E8%A3%85" class="hash-link" aria-label="nrm的安装的直接链接" title="nrm的安装的直接链接">​</a></h4>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g nrm</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="nrm命令">nrm命令<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#nrm%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="nrm��命令的直接链接" title="nrm命令的直接链接">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="nrm命令">nrm命令<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#nrm%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="nrm命令的直接链接" title="nrm命令的直接链接">​</a></h4>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nrm ls　#查看可用的源（有*号的表示当前所使用的源,以下&lt;registry&gt;表示源的名称）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm use &lt;registry&gt; # 将npm下载源切换成指定的源</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm add &lt;registry&gt; &lt;url&gt; # 添加源，url为源的路径</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm del &lt;registry&gt; # 删除源</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm test &lt;registry&gt; # 测试源的响应时间，可以作为使用哪个源的参考</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm help　# 查看nrm帮助</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nrm home &lt;registry&gt;　# 跳转到指定源的官网</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="nrm使用">nrm使用<a href="https://book.onlinebookshell.co.in/blog/2024/4.npm%E6%93%8D%E4%BD%9C#nrm%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="nrm使用的直接链接" title="nrm使用的直接链接">​</a></h4>
 <p>如果在你的网络不太理想或者受到其他网络限制导致不能使用npm原本的源进行下载时，nrm就非常有用了，你只需要：</p>
