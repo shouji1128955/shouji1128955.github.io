@@ -16,10 +16,6 @@ tags: [action,docusaurus]
 > Docusaurus 的官方文档 https://docusaurus.io/zh-CN/docs
 
 
-
-
-
-
 ## 生成新站点
 
 使用 `classic` 模板生成一个新的 Docusaurus 站点 `my-website`。
