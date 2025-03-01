@@ -1,12 +1,9 @@
 ## 分析问题现状
-
 mongo版本： 3.2.17
 
 故障， 服务器宕机之后，重启mongdb会报错，因为是生产环境，所有的配置都是固定的，多次修改配置无效之后，决定将文件系统数据同步到测试环境实现验证
 
 ![image-20231219193404022](images/image-20231219193404022.png)
-
-
 
 报错提示：  72 Requested option conflicts with current storage engine option for directoryForIndexes; you requested false but the current server storage is already set to true and cannot be changed, terminating 
 
