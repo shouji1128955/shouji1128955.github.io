@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbookshell=self.webpackChunkbookshell||[]).push([[7882],{6341:e=>{e.exports=JSON.parse('{"authors":[{"name":"zhanglaiqiang","title":"liteshell.cn maintainer","url":"https://github.com/shouji1128955/bookshell","imageURL":"https://avatars.githubusercontent.com/u/49987752?v=4","key":"liteshell","page":null,"count":2}]}')}}]);
