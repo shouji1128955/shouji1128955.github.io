@@ -19,5 +19,9 @@
   "previous": {
     "title": "prometheus指标",
     "permalink": "/docs/Prometheus/prometheus/prometheus指标"
+  },
+  "next": {
+    "title": "告警优化",
+    "permalink": "/docs/Prometheus/prometheus/告警优化"
   }
 }

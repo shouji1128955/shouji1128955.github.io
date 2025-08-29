@@ -19,5 +19,9 @@
   "previous": {
     "title": "安全配置",
     "permalink": "/docs/Sre/日常运维/安全配置"
+  },
+  "next": {
+    "title": "编码",
+    "permalink": "/docs/Sre/日常运维/编码"
   }
 }

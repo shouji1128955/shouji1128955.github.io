@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'ea1'),
+    component: ComponentCreator('/blog', '7b9'),
     exact: true
   },
   {
@@ -48,8 +48,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/2024/4.npm操作',
-    component: ComponentCreator('/blog/2024/4.npm操作', '958'),
+    path: '/blog/2024/10/11/npm操作',
+    component: ComponentCreator('/blog/2024/10/11/npm操作', '2bf'),
+    exact: true
+  },
+  {
+    path: '/blog/2026/logrotate',
+    component: ComponentCreator('/blog/2026/logrotate', 'b61'),
     exact: true
   },
   {
@@ -99,15 +104,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ae4'),
+    component: ComponentCreator('/docs', '7dd'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '574'),
+        component: ComponentCreator('/docs', '988'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '074'),
+            component: ComponentCreator('/docs', 'ad9'),
             routes: [
               {
                 path: '/docs/DevOps/ELK/elasticsearch操作',
@@ -314,14 +319,26 @@ export default [
                 sidebar: "k8s"
               },
               {
-                path: '/docs/k8s/Controller',
-                component: ComponentCreator('/docs/k8s/Controller', '5ad'),
+                path: '/docs/k8s/helm',
+                component: ComponentCreator('/docs/k8s/helm', '4f6'),
                 exact: true,
                 sidebar: "k8s"
               },
               {
-                path: '/docs/k8s/helm',
-                component: ComponentCreator('/docs/k8s/helm', '4f6'),
+                path: '/docs/k8s/k8s develop/Client-go',
+                component: ComponentCreator('/docs/k8s/k8s develop/Client-go', 'e35'),
+                exact: true,
+                sidebar: "k8s"
+              },
+              {
+                path: '/docs/k8s/k8s develop/Controller',
+                component: ComponentCreator('/docs/k8s/k8s develop/Controller', '347'),
+                exact: true,
+                sidebar: "k8s"
+              },
+              {
+                path: '/docs/k8s/k8s develop/operator',
+                component: ComponentCreator('/docs/k8s/k8s develop/operator', 'fd4'),
                 exact: true,
                 sidebar: "k8s"
               },
@@ -338,8 +355,8 @@ export default [
                 sidebar: "k8s"
               },
               {
-                path: '/docs/k8s/operator',
-                component: ComponentCreator('/docs/k8s/operator', '4cb'),
+                path: '/docs/k8s/nvidia',
+                component: ComponentCreator('/docs/k8s/nvidia', '68a'),
                 exact: true,
                 sidebar: "k8s"
               },
@@ -354,6 +371,12 @@ export default [
                 component: ComponentCreator('/docs/Prometheus/grafana', '663'),
                 exact: true,
                 sidebar: "PrometheusGrafana"
+              },
+              {
+                path: '/docs/Prometheus/prometheus/告警优化',
+                component: ComponentCreator('/docs/Prometheus/prometheus/告警优化', 'fc4'),
+                exact: true,
+                sidebar: "PrometheusServer"
               },
               {
                 path: '/docs/Prometheus/prometheus/告警指标汇总',
@@ -424,6 +447,12 @@ export default [
               {
                 path: '/docs/Sre/日常运维/安全配置',
                 component: ComponentCreator('/docs/Sre/日常运维/安全配置', '4a4'),
+                exact: true,
+                sidebar: "SreOper"
+              },
+              {
+                path: '/docs/Sre/日常运维/编码',
+                component: ComponentCreator('/docs/Sre/日常运维/编码', '3ef'),
                 exact: true,
                 sidebar: "SreOper"
               },

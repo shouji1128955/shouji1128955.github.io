@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-ea1": {
+  "/blog-7b9": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -50,7 +50,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-59-d-6ad"
+        "content": "content---blog-99-a-e99"
+      },
+      {
+        "content": "content---blogfc-1-3d4"
       },
       {
         "content": "content---blog-5-f-6-b42"
@@ -75,7 +78,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-2023-12-19-mongodb数据库恢复c-35-c95"
   },
-  "/blog/2024/4.npm操作-958": {
+  "/blog/2024/10/11/npm操作-2bf": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
@@ -84,7 +87,18 @@
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2024-4-npm操作d-86-afc"
+    "content": "content---blog-2024-10-11-npm操作a-33-a9f"
+  },
+  "/blog/2026/logrotate-b61": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-2023-12-19-mongodb数据库恢复ace-b00"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2026-logrotatec-15-85a"
   },
   "/blog/archive-182": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -179,17 +193,17 @@
       "plugin": "plugin---searchc-14-0ea"
     }
   },
-  "/docs-ae4": {
+  "/docs-7dd": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-574": {
+  "/docs-988": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-074": {
+  "/docs-ad9": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/DevOps/ELK/elasticsearch操作-bc2": {
@@ -328,13 +342,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-k-8-s-ansible安装k-8-s-1-24-12-e-01-b1c"
   },
-  "/docs/k8s/Controller-5ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-k-8-s-controllerebf-5a9"
-  },
   "/docs/k8s/helm-4f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-k-8-s-helm-4-e-9-256"
+  },
+  "/docs/k8s/k8s develop/Client-go-e35": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-k-8-s-k-8-s-develop-client-go-068-761"
+  },
+  "/docs/k8s/k8s develop/Controller-347": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-k-8-s-k-8-s-develop-controllercea-0a5"
+  },
+  "/docs/k8s/k8s develop/operator-fd4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-k-8-s-k-8-s-develop-operator-808-640"
   },
   "/docs/k8s/k8s_studay-43d": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -344,9 +366,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-k-8-s-kubernetes-cka-7-d-5-c20"
   },
-  "/docs/k8s/operator-4cb": {
+  "/docs/k8s/nvidia-68a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-k-8-s-operator-874-a3d"
+    "content": "content---docs-k-8-s-nvidia-37-a-968"
   },
   "/docs/Prometheus/alertManager/alertmanager告警配置-ed0": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -355,6 +377,10 @@
   "/docs/Prometheus/grafana-663": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-prometheus-grafana-4-ee-aa7"
+  },
+  "/docs/Prometheus/prometheus/告警优化-fc4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-prometheus-prometheus-告警优化-90-c-bea"
   },
   "/docs/Prometheus/prometheus/告警指标汇总-1f5": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -403,6 +429,10 @@
   "/docs/Sre/日常运维/安全配置-4a4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-sre-日常运维-安全配置bd-8-686"
+  },
+  "/docs/Sre/日常运维/编码-3ef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sre-日常运维-编码-22-d-1aa"
   },
   "/docs/Sre/日常运维/磁盘管理-15e": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,2 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /blog/
+Allow: /docs/
+Disallow: /static/
+Disallow: /demo/
+Sitemap: https://book.onlinebookshell.co.in/sitemap.xml

@@ -21,7 +21,7 @@
     "permalink": "/docs/k8s/更新内核"
   },
   "next": {
-    "title": "控制器 CRD 介绍",
-    "permalink": "/docs/k8s/Controller"
+    "title": "nvidia",
+    "permalink": "/docs/k8s/nvidia"
   }
 }

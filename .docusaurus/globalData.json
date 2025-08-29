@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "k8s/operator",
+          "mainDocId": "k8s/k8s_studay",
           "docs": [
             {
               "id": "DevOps/ELK/elasticsearch操作",
@@ -181,13 +181,23 @@
               "sidebar": "k8s"
             },
             {
-              "id": "k8s/Controller",
-              "path": "/docs/k8s/Controller",
+              "id": "k8s/helm",
+              "path": "/docs/k8s/helm",
               "sidebar": "k8s"
             },
             {
-              "id": "k8s/helm",
-              "path": "/docs/k8s/helm",
+              "id": "k8s/k8s develop/Client-go",
+              "path": "/docs/k8s/k8s develop/Client-go",
+              "sidebar": "k8s"
+            },
+            {
+              "id": "k8s/k8s develop/Controller",
+              "path": "/docs/k8s/k8s develop/Controller",
+              "sidebar": "k8s"
+            },
+            {
+              "id": "k8s/k8s develop/operator",
+              "path": "/docs/k8s/k8s develop/operator",
               "sidebar": "k8s"
             },
             {
@@ -201,8 +211,8 @@
               "sidebar": "k8s"
             },
             {
-              "id": "k8s/operator",
-              "path": "/docs/k8s/operator",
+              "id": "k8s/nvidia",
+              "path": "/docs/k8s/nvidia",
               "sidebar": "k8s"
             },
             {
@@ -214,6 +224,11 @@
               "id": "Prometheus/grafana/grafana",
               "path": "/docs/Prometheus/grafana/",
               "sidebar": "PrometheusGrafana"
+            },
+            {
+              "id": "Prometheus/prometheus/告警优化",
+              "path": "/docs/Prometheus/prometheus/告警优化",
+              "sidebar": "PrometheusServer"
             },
             {
               "id": "Prometheus/prometheus/告警指标汇总",
@@ -273,6 +288,11 @@
             {
               "id": "Sre/日常运维/安全配置",
               "path": "/docs/Sre/日常运维/安全配置",
+              "sidebar": "SreOper"
+            },
+            {
+              "id": "Sre/日常运维/编码",
+              "path": "/docs/Sre/日常运维/编码",
               "sidebar": "SreOper"
             },
             {
@@ -425,8 +445,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/k8s/operator",
-                "label": "k8s/operator"
+                "path": "/docs/k8s/k8s_studay",
+                "label": "k8s/k8s_studay"
               }
             },
             "SreOper": {
@@ -449,8 +469,8 @@
             },
             "k8s": {
               "link": {
-                "path": "/docs/k8s/operator",
-                "label": "k8s/operator"
+                "path": "/docs/k8s/k8s_studay",
+                "label": "k8s/k8s_studay"
               }
             },
             "PrometheusGrafana": {

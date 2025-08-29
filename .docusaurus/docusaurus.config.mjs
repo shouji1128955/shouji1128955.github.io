@@ -40,6 +40,15 @@ export default {
         },
         "theme": {
           "customCss": "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/src/css/custom.css"
+        },
+        "sitemap": {
+          "lastmod": "date",
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/tags/**"
+          ],
+          "filename": "sitemap.xml"
         }
       }
     ]
@@ -282,7 +291,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Blog Project - LiteShell"
+      "copyright": "Copyright © 2025 My Blog Project - LiteShell"
     },
     "prism": {
       "theme": {
