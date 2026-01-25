@@ -32,7 +32,7 @@ jobs:
 
 
       - name: Create CNAME file
-        run: echo 'book.onlinebookshell.co.in' > ./build/CNAME
+        run: echo 'blog.agi-infra.com' > ./build/CNAME
 
       - name: Notify Deployment
         run: |
@@ -45,7 +45,7 @@ jobs:
           publish_dir: ./build # 指定要发布的构建输出目录
           user_name: github-actions[bot] # 提交时使用的用户名
           user_email: 409003604@qq.com # 提交时使用的用户邮箱
-          fqdn: book.onlinebookshell.co.in
+          fqdn: blog.agi-infra.com
 
 
   scan:
