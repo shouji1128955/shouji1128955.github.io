@@ -4,4 +4,4 @@ Allow: /blog/
 Allow: /docs/
 Disallow: /static/
 Disallow: /demo/
-Sitemap: https://blog.agi-infra.com/sitemap.xml
+Sitemap: https://book.onlinebookshell.co.in/sitemap.xml
