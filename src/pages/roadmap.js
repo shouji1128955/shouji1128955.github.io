@@ -10,8 +10,7 @@ const stages = [
     phase: 'Phase 01',
     title: '运维新兵',
     period: '0 ~ 2 年',
-    gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    color: '#764ba2',
+    color: '#64748b',
     icon: '🌱',
     status: 'done',
     summary: '打好基础，能独立处理日常运维任务，掌握 Linux 与网络核心知识。',
@@ -28,16 +27,15 @@ const stages = [
     phase: 'Phase 02',
     title: 'SRE 进阶',
     period: '2 ~ 4 年',
-    gradient: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
-    color: '#11998e',
+    color: '#2563eb',
     icon: '⚙️',
     status: 'done',
     summary: '掌握容器化与自动化，建立系统化的监控告警体系，具备独立设计方案的能力。',
     skills: [
       { category: 'Docker & 容器', items: ['Docker 原理 & 实践', 'Docker Compose', '镜像构建优化', '容器网络 & 存储'] },
-      { category: 'CI/CD',        items: ['Jenkins Pipeline', 'GitLab CI', 'Argo CD / GitOps', 'Harbor 制品仓库'] },
-      { category: '监控体系',     items: ['Prometheus & PromQL', 'Grafana Dashboard', 'AlertManager', 'ELK 日志系统'] },
-      { category: '自动化',       items: ['Python 运维脚本', 'Ansible 批量管理', '作业调度平台'] },
+      { category: 'CI/CD',         items: ['Jenkins Pipeline', 'GitLab CI', 'Argo CD / GitOps', 'Harbor 制品仓库'] },
+      { category: '监控体系',      items: ['Prometheus & PromQL', 'Grafana Dashboard', 'AlertManager', 'ELK 日志系统'] },
+      { category: '自动化',        items: ['Python 运维脚本', 'Ansible 批量管理', '作业调度平台'] },
     ],
     milestone: '独立搭建监控告警平台，推动团队 CI/CD 落地，SLI/SLO 意识建立',
   },
@@ -46,16 +44,15 @@ const stages = [
     phase: 'Phase 03',
     title: '云原生工程师',
     period: '4 ~ 6 年',
-    gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-    color: '#f5576c',
+    color: '#0284c7',
     icon: '☸️',
     status: 'doing',
     summary: '深耕 Kubernetes 生态，构建云原生基础设施平台，能主导大型系统可靠性设计。',
     skills: [
-      { category: 'Kubernetes',    items: ['集群搭建 & 升级', '调度器 & 亲和性', 'Operator 开发', 'Service Mesh Istio'] },
-      { category: '可观测性',      items: ['OpenTelemetry', 'Jaeger / Tempo 链路', 'Loki 日志聚合', 'SkyWalking APM'] },
+      { category: 'Kubernetes',     items: ['集群搭建 & 升级', '调度器 & 亲和性', 'Operator 开发', 'Service Mesh Istio'] },
+      { category: '可观测性',       items: ['OpenTelemetry', 'Jaeger / Tempo 链路', 'Loki 日志聚合', 'SkyWalking APM'] },
       { category: '基础设施即代码', items: ['Terraform', 'Helm Chart 开发', 'Crossplane', 'Pulumi'] },
-      { category: 'Golang 开发',   items: ['Go 并发模型', 'client-go 开发', 'Controller & Webhook', 'CLI 工具开发'] },
+      { category: 'Golang 开发',    items: ['Go 并发模型', 'client-go 开发', 'Controller & Webhook', 'CLI 工具开发'] },
     ],
     milestone: '主导公司云原生平台建设，具备百节点集群运维能力，能开发自定义运维工具',
   },
@@ -64,8 +61,7 @@ const stages = [
     phase: 'Phase 04',
     title: 'SRE 专家',
     period: '6 ~ 9 年',
-    gradient: 'linear-gradient(135deg, #f7971e 0%, #ffd200 100%)',
-    color: '#f7971e',
+    color: '#0d9488',
     icon: '🏗️',
     status: 'todo',
     summary: '系统设计与技术决策能力，能够主导跨团队稳定性保障体系，影响工程文化。',
@@ -82,28 +78,26 @@ const stages = [
     phase: 'Phase 05',
     title: '技术领导者',
     period: '9 年以上',
-    gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-    color: '#4facfe',
+    color: '#6d28d9',
     icon: '🚀',
     status: 'todo',
     summary: '技术战略与组织能力，在更大范围内推动工程实践演进，成为行业影响力者。',
     skills: [
-      { category: '技术战略',   items: ['技术选型决策', '长期架构规划', '开源社区贡献', '行业标准参与'] },
-      { category: '组织建设',   items: ['工程师文化塑造', '招聘 & 人才体系', 'OnCall 制度设计', 'SRE 团队建设'] },
-      { category: '商业理解',   items: ['成本 & ROI 意识', '业务连续性规划', 'SLA 商业谈判', '供应商管理'] },
-      { category: '个人品牌',   items: ['技术博客 & 演讲', '书籍 & 课程输出', '开源项目维护', '行业技术委员会'] },
+      { category: '技术战略', items: ['技术选型决策', '长期架构规划', '开源社区贡献', '行业标准参与'] },
+      { category: '组织建设', items: ['工程师文化塑造', '招聘 & 人才体系', 'OnCall 制度设计', 'SRE 团队建设'] },
+      { category: '商业理解', items: ['成本 & ROI 意识', '业务连续性规划', 'SLA 商业谈判', '供应商管理'] },
+      { category: '个人品牌', items: ['技术博客 & 演讲', '书籍 & 课程输出', '开源项目维护', '行业技术委员会'] },
     ],
     milestone: '成为组织内外公认的技术专家，推动行业最佳实践，影响工程文化',
   },
 ];
 
 const statusConfig = {
-  done:  { label: '已完成', dot: styles.dotDone },
-  doing: { label: '进行中', dot: styles.dotDoing },
-  todo:  { label: '待解锁', dot: styles.dotTodo },
+  done:  { label: '已完成', cls: styles.dotDone },
+  doing: { label: '进行中', cls: styles.dotDoing },
+  todo:  { label: '待解锁', cls: styles.dotTodo },
 };
 
-// 整体进度
 const doneCount  = stages.filter(s => s.status === 'done').length;
 const doingCount = stages.filter(s => s.status === 'doing').length;
 const progressPct = Math.round(((doneCount + doingCount * 0.5) / stages.length) * 100);
@@ -142,30 +136,37 @@ function SkillGroup({ category, items, color }) {
 
 function StageCard({ stage, isActive, onClick }) {
   const sc = statusConfig[stage.status];
+  const isTodo = stage.status === 'todo';
   return (
     <div
-      className={`${styles.card} ${isActive ? styles.cardOpen : ''}`}
+      className={`${styles.card} ${isActive ? styles.cardOpen : ''} ${isTodo ? styles.cardTodo : ''}`}
+      style={{ '--accent': stage.color }}
       onClick={onClick}
     >
-      {/* 顶部渐变色条 */}
-      <div className={styles.cardBar} style={{ background: stage.gradient }} />
-
       <div className={styles.cardBody}>
-        {/* Header row */}
+        {/* Header */}
         <div className={styles.cardHeader}>
-          <div className={styles.cardIconBox} style={{ background: stage.gradient }}>
+          {/* 图标 */}
+          <div
+            className={styles.cardIconBox}
+            style={{ background: isTodo ? undefined : `${stage.color}18`, borderColor: `${stage.color}30` }}
+          >
             <span className={styles.cardIcon}>{stage.icon}</span>
           </div>
 
+          {/* 文字信息 */}
           <div className={styles.cardMeta}>
-            <span className={styles.cardPhase}>{stage.phase}</span>
+            <div className={styles.cardTopRow}>
+              <span className={styles.cardPhase} style={{ color: isTodo ? undefined : stage.color }}>
+                {stage.phase}
+              </span>
+              <span className={`${styles.statusBadge} ${sc.cls}`}>
+                {stage.status === 'doing' && <span className={styles.badgePulse} />}
+                {sc.label}
+              </span>
+            </div>
             <Heading as="h3" className={styles.cardTitle}>{stage.title}</Heading>
             <span className={styles.cardPeriod}>{stage.period}</span>
-          </div>
-
-          <div className={`${styles.statusBadge} ${sc.dot}`}>
-            {stage.status === 'doing' && <span className={styles.badgePulse} />}
-            {sc.label}
           </div>
         </div>
 
@@ -177,7 +178,7 @@ function StageCard({ stage, isActive, onClick }) {
           <div className={styles.detail}>
             <div className={styles.skillGrid}>
               {stage.skills.map(sg => (
-                <SkillGroup key={sg.category} {...sg} color={stage.color} />
+                <SkillGroup key={sg.category} {...sg} color={isTodo ? '#94a3b8' : stage.color} />
               ))}
             </div>
             <div className={styles.milestone} style={{ borderColor: stage.color }}>
@@ -190,7 +191,7 @@ function StageCard({ stage, isActive, onClick }) {
           </div>
         )}
 
-        <div className={styles.toggle} style={{ color: stage.color }}>
+        <div className={styles.toggle} style={{ color: isTodo ? '#94a3b8' : stage.color }}>
           {isActive ? '▲ 收起' : '▼ 展开详情'}
         </div>
       </div>
@@ -204,15 +205,23 @@ export default function RoadmapPage() {
 
   return (
     <Layout title="个人成长路线" description="SRE 工程师成长路线图——从运维新兵到技术领导者">
-      {/* 页头 */}
       <div className={styles.hero}>
+        {/* 静态渐变底色 */}
         <div className={styles.heroBg} />
+        {/* 点阵网格 */}
+        <div className={styles.heroDots} />
+        {/* 浮动光斑 */}
+        <div className={`${styles.blob} ${styles.blob1}`} />
+        <div className={`${styles.blob} ${styles.blob2}`} />
+        <div className={`${styles.blob} ${styles.blob3}`} />
+        {/* 底部扫描线 */}
+        <div className={styles.scanLine} />
+
         <div className={styles.heroContent}>
           <div className={styles.heroTag}>Career Roadmap</div>
           <Heading as="h1" className={styles.heroTitle}>SRE 成长路线图</Heading>
           <p className={styles.heroSub}>
-            从运维新兵到技术领导者，记录每个阶段的核心技能与里程碑<br />
-            点击卡片展开查看详细技能树
+            从运维新兵到技术领导者，记录每个阶段的核心技能与里程碑
           </p>
           <ProgressBar />
         </div>
@@ -221,40 +230,43 @@ export default function RoadmapPage() {
       {/* 时间轴主体 */}
       <div className={styles.main}>
         <div className={styles.timelineWrap}>
-          {stages.map((stage, idx) => (
-            <div key={stage.id} className={styles.row}>
-              {/* 左侧序号轴 */}
-              <div className={styles.axis}>
-                <div
-                  className={`${styles.axisCircle} ${stage.status === 'todo' ? styles.axisCircleTodo : ''}`}
-                  style={stage.status !== 'todo' ? { background: stage.gradient } : {}}
-                >
-                  {stage.status === 'doing'
-                    ? <span className={styles.axisPulse} />
-                    : null}
-                  <span className={styles.axisNum}>{String(idx + 1).padStart(2, '0')}</span>
-                </div>
-                {idx < stages.length - 1 && (
+          {stages.map((stage, idx) => {
+            const isTodo = stage.status === 'todo';
+            return (
+              <div key={stage.id} className={styles.row}>
+                {/* 左侧轴 */}
+                <div className={styles.axis}>
                   <div
-                    className={styles.axisLine}
-                    style={{ background: stages[idx + 1].status === 'todo' ? 'var(--ifm-color-emphasis-200)' : stage.gradient }}
-                  />
-                )}
-              </div>
+                    className={`${styles.axisDot} ${isTodo ? styles.axisDotTodo : ''}`}
+                    style={!isTodo ? { borderColor: stage.color, color: stage.color } : {}}
+                  >
+                    {stage.status === 'doing' && (
+                      <span className={styles.axisPulse} style={{ borderColor: stage.color }} />
+                    )}
+                    <span className={styles.axisNum}>{String(idx + 1).padStart(2, '0')}</span>
+                  </div>
+                  {idx < stages.length - 1 && (
+                    <div
+                      className={styles.axisLine}
+                      style={{ borderColor: isTodo ? undefined : stage.color }}
+                    />
+                  )}
+                </div>
 
-              {/* 右侧卡片 */}
-              <div className={styles.cardWrap}>
-                <StageCard
-                  stage={stage}
-                  isActive={activeId === stage.id}
-                  onClick={() => toggle(stage.id)}
-                />
+                {/* 右侧卡片 */}
+                <div className={styles.cardWrap}>
+                  <StageCard
+                    stage={stage}
+                    isActive={activeId === stage.id}
+                    onClick={() => toggle(stage.id)}
+                  />
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
-        {/* 底部寄语 */}
+        {/* 底部引言 */}
         <div className={styles.footer}>
           <div className={styles.footerQuote}>
             "The goal of SRE is to make the service reliable enough<br />

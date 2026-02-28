@@ -1,12 +1,12 @@
 /* ===========================
-   Hero
+   Hero（保持不变）
    =========================== */
 .hero {
   position: relative;
   padding: 5rem 1.5rem 4rem;
   overflow: hidden;
   text-align: center;
-  background: #0a0e1a;
+  background: linear-gradient(160deg, #0f2040 0%, #0a1628 50%, #091420 100%);
 }
 
 .heroBg {
@@ -62,6 +62,92 @@
   margin: 0;
 }
 
+/* ---- 点阵网格 ---- */
+.heroDots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+}
+
+/* ---- 浮动光斑 ---- */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  pointer-events: none;
+  will-change: transform;
+}
+
+.blob1 {
+  width: 380px;
+  height: 380px;
+  background: rgba(102, 126, 234, 0.22);
+  top: -60px;
+  left: -80px;
+  animation: blobFloat1 12s ease-in-out infinite;
+}
+
+.blob2 {
+  width: 300px;
+  height: 300px;
+  background: rgba(17, 153, 142, 0.18);
+  bottom: -40px;
+  right: -60px;
+  animation: blobFloat2 15s ease-in-out infinite;
+}
+
+.blob3 {
+  width: 220px;
+  height: 220px;
+  background: rgba(245, 87, 108, 0.14);
+  top: 40%;
+  left: 55%;
+  animation: blobFloat3 10s ease-in-out infinite;
+}
+
+@keyframes blobFloat1 {
+  0%, 100% { transform: translate(0,   0)   scale(1);   }
+  33%       { transform: translate(40px, 30px) scale(1.05); }
+  66%       { transform: translate(-20px, 50px) scale(0.95); }
+}
+
+@keyframes blobFloat2 {
+  0%, 100% { transform: translate(0,   0)    scale(1);    }
+  40%       { transform: translate(-50px, -30px) scale(1.08); }
+  70%       { transform: translate(30px, -50px) scale(0.96); }
+}
+
+@keyframes blobFloat3 {
+  0%, 100% { transform: translate(0,   0)   scale(1);   }
+  50%       { transform: translate(-30px, 40px) scale(1.1); }
+}
+
+/* ---- 底部扫描线 ---- */
+.scanLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(102, 126, 234, 0.6) 30%,
+    rgba(245, 87, 108, 0.6) 70%,
+    transparent 100%
+  );
+  animation: scanMove 4s ease-in-out infinite;
+}
+
+@keyframes scanMove {
+  0%, 100% { opacity: 0.4; transform: scaleX(0.6); }
+  50%       { opacity: 1;   transform: scaleX(1);   }
+}
+
+
 /* ===========================
    Progress Bar
    =========================== */
@@ -97,7 +183,7 @@
 }
 
 .progressTrack {
-  height: 8px;
+  height: 6px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -124,242 +210,268 @@
 .statTodo  { color: rgba(255,255,255,0.35); }
 
 /* ===========================
-   Main / Timeline
+   Main Layout
    =========================== */
 .main {
-  max-width: 840px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 3.5rem 1.25rem 5rem;
+  padding: 3.5rem 1.5rem 5rem;
 }
 
 .timelineWrap {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .row {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.75rem;
   align-items: flex-start;
 }
 
 /* ===========================
-   Axis (left side)
+   Axis — 描边小圆点风格
    =========================== */
 .axis {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  padding-top: 1.5rem;
+  padding-top: 1.4rem;
+  width: 36px;
 }
 
-.axisCircle {
-  width: 44px;
-  height: 44px;
+.axisDot {
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   flex-shrink: 0;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.axisCircleTodo {
-  background: var(--ifm-color-emphasis-200) !important;
-  box-shadow: none;
-}
-
-[data-theme='dark'] .axisCircleTodo {
-  background: rgba(255, 255, 255, 0.08) !important;
-}
-
-.axisNum {
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: 0.5px;
   position: relative;
   z-index: 1;
 }
 
-.axisCircleTodo .axisNum {
-  color: var(--ifm-color-emphasis-500);
+.axisDotTodo {
+  border-color: var(--ifm-color-emphasis-200) !important;
+  color: var(--ifm-color-emphasis-400) !important;
 }
 
-[data-theme='dark'] .axisCircleTodo .axisNum {
-  color: rgba(255, 255, 255, 0.3);
+[data-theme='dark'] .axisDot {
+  background: #0f1117;
 }
+
+[data-theme='dark'] .axisDotTodo {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
 
 .axisPulse {
   position: absolute;
   inset: -6px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  animation: axis-pulse 2s ease-in-out infinite;
+  border: 1.5px solid;
+  opacity: 0;
+  animation: axis-pulse 2.2s ease-out infinite;
 }
 
 @keyframes axis-pulse {
-  0%, 100% { transform: scale(1); opacity: 0.6; }
-  50%       { transform: scale(1.25); opacity: 0; }
+  0%  { transform: scale(1);   opacity: 0.6; }
+  80% { transform: scale(1.5); opacity: 0; }
+  100%{ transform: scale(1.5); opacity: 0; }
 }
 
+.axisNum {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+/* 连接线 — 虚线 */
 .axisLine {
-  width: 2px;
+  width: 0;
   flex: 1;
-  min-height: 28px;
-  margin-top: 6px;
-  border-radius: 1px;
+  min-height: 24px;
+  margin-top: 5px;
+  border-left: 2px dashed var(--ifm-color-emphasis-200);
   opacity: 0.5;
 }
 
 .row:last-child .axisLine { display: none; }
 
 /* ===========================
-   Card
+   Card — 左侧边框 accent
    =========================== */
 .cardWrap {
   flex: 1;
-  padding-bottom: 1.75rem;
+  padding-bottom: 1.5rem;
+  min-width: 0;
 }
 
 .card {
-  border-radius: 16px;
-  border: 1.5px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--accent, var(--ifm-color-emphasis-300));
   overflow: hidden;
   cursor: pointer;
-  transition: box-shadow 0.25s, border-color 0.25s, transform 0.25s;
+  transition: box-shadow 0.2s, transform 0.2s;
   background: var(--ifm-background-surface-color);
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  transform: translateX(3px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
 }
 
 .cardOpen {
-  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.12);
-  border-color: transparent;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.09);
+}
+
+.cardTodo {
+  border-left-color: var(--ifm-color-emphasis-200) !important;
+  opacity: 0.75;
 }
 
 [data-theme='dark'] .card {
-  background: #181c24;
-  border-color: rgba(255, 255, 255, 0.07);
+  background: #13171f;
+  border-color: rgba(255,255,255,0.07);
+  border-left-color: var(--accent, rgba(255,255,255,0.15));
 }
 
-[data-theme='dark'] .card:hover,
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+}
+
 [data-theme='dark'] .cardOpen {
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-  border-color: transparent;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.4);
 }
 
-/* Top color bar */
-.cardBar {
-  height: 5px;
-  width: 100%;
+[data-theme='dark'] .cardTodo {
+  border-left-color: rgba(255,255,255,0.1) !important;
 }
 
 .cardBody {
-  padding: 1.25rem 1.4rem 1rem;
+  padding: 1.1rem 1.3rem 0.9rem;
 }
 
 /* Card header */
 .cardHeader {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.85rem;
+  align-items: flex-start;
+  gap: 0.9rem;
+  margin-bottom: 0.7rem;
 }
 
+/* Icon box — 无渐变，只用淡色底 */
 .cardIconBox {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: var(--ifm-color-emphasis-100);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme='dark'] .cardIconBox {
+  background: rgba(255,255,255,0.05);
 }
 
 .cardIcon {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1;
 }
 
 .cardMeta {
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.15rem;
+}
+
+/* Phase + badge 同行 */
+.cardTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 .cardPhase {
   font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--ifm-color-emphasis-500);
+  font-family: var(--ifm-font-family-monospace);
 }
 
 .cardTitle {
-  font-size: 1.15rem !important;
-  font-weight: 800 !important;
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
   margin: 0 !important;
   color: var(--ifm-font-color-base) !important;
+  line-height: 1.3 !important;
 }
 
 .cardPeriod {
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   color: var(--ifm-color-emphasis-500);
   font-variant-numeric: tabular-nums;
 }
 
 /* Status badge */
 .statusBadge {
-  padding: 0.28rem 0.85rem;
+  padding: 0.18rem 0.65rem;
   border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
-  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.3rem;
+  border: 1px solid transparent;
 }
 
 .dotDone {
-  background: rgba(56, 239, 125, 0.12);
-  color: #0d9147;
-  border: 1.5px solid rgba(56, 239, 125, 0.35);
+  background: rgba(16, 185, 129, 0.08);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.25);
 }
 
+
 .dotDoing {
-  background: rgba(79, 172, 254, 0.12);
-  color: #1a73e8;
-  border: 1.5px solid rgba(79, 172, 254, 0.4);
+  background: rgba(37, 99, 235, 0.08);
+  color: #2563eb;
+  border-color: rgba(37, 99, 235, 0.25);
 }
 
 .dotTodo {
   background: var(--ifm-color-emphasis-100);
   color: var(--ifm-color-emphasis-500);
-  border: 1.5px solid var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-200);
 }
 
 [data-theme='dark'] .dotDone {
-  background: rgba(56, 239, 125, 0.1);
-  color: #38ef7d;
-  border-color: rgba(56, 239, 125, 0.25);
+  background: rgba(16, 185, 129, 0.1);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.2);
 }
 
+
 [data-theme='dark'] .dotDoing {
-  background: rgba(79, 172, 254, 0.1);
-  color: #4facfe;
-  border-color: rgba(79, 172, 254, 0.3);
+  background: rgba(37, 99, 235, 0.1);
+  color: #60a5fa;
+  border-color: rgba(37, 99, 235, 0.2);
 }
 
 [data-theme='dark'] .dotTodo {
@@ -368,81 +480,82 @@
   border-color: rgba(255,255,255,0.08);
 }
 
+
 .badgePulse {
   display: inline-block;
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: #4facfe;
-  animation: badge-pulse 1.5s ease-in-out infinite;
+  background: currentColor;
+  animation: badge-pulse 1.8s ease-in-out infinite;
   flex-shrink: 0;
 }
 
 @keyframes badge-pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50%       { opacity: 0.4; transform: scale(0.7); }
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
 }
 
 /* Summary */
 .cardSummary {
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   line-height: 1.75;
   color: var(--ifm-color-emphasis-700);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 [data-theme='dark'] .cardSummary {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255,255,255,0.5);
 }
 
 /* Toggle */
 .toggle {
-  font-size: 0.76rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 600;
   user-select: none;
-  margin-top: 0.25rem;
-  letter-spacing: 0.3px;
+  margin-top: 0.2rem;
+  letter-spacing: 0.2px;
 }
 
 /* ===========================
    Expanded Detail
    =========================== */
 .detail {
-  margin-top: 1.25rem;
-  padding-top: 1.25rem;
-  border-top: 1px dashed var(--ifm-color-emphasis-200);
-  animation: slideDown 0.22s ease;
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  animation: slideDown 0.2s ease;
 }
 
 [data-theme='dark'] .detail {
-  border-top-color: rgba(255, 255, 255, 0.07);
+  border-top-color: rgba(255,255,255,0.07);
 }
 
 @keyframes slideDown {
-  from { opacity: 0; transform: translateY(-8px); }
+  from { opacity: 0; transform: translateY(-6px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 .skillGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.1rem;
-  margin-bottom: 1.25rem;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 560px) {
   .skillGrid { grid-template-columns: 1fr; }
 }
 
 .skillGroup {
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.4rem;
 }
 
 .skillCategory {
-  font-size: 0.72rem;
-  font-weight: 800;
+  font-size: 0.7rem;
+  font-weight: 700;
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
@@ -450,16 +563,16 @@
 .skillItems {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.3rem;
 }
 
 .skillChip {
-  font-size: 0.75rem;
-  padding: 0.18rem 0.6rem;
-  border-radius: 6px;
+  font-size: 0.74rem;
+  padding: 0.16rem 0.55rem;
+  border-radius: 5px;
   background: var(--ifm-color-emphasis-100);
   border: 1px solid var(--ifm-color-emphasis-200);
-  color: var(--ifm-font-color-base);
+  color: var(--ifm-color-emphasis-800);
   font-family: var(--ifm-font-family-monospace);
   transition: background 0.15s;
 }
@@ -469,38 +582,39 @@
 }
 
 [data-theme='dark'] .skillChip {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.09);
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
 }
 
 [data-theme='dark'] .skillChip:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.09);
 }
 
 /* Milestone */
 .milestone {
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
-  padding: 0.9rem 1.1rem;
-  border-radius: 10px;
+  gap: 0.7rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
   background: var(--ifm-color-emphasis-100);
-  border-left: 4px solid;
+  border-left: 3px solid var(--ifm-color-emphasis-300);
 }
 
 [data-theme='dark'] .milestone {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255,255,255,0.03);
 }
 
 .milestoneIcon {
-  font-size: 1.1rem;
+  font-size: 1rem;
   flex-shrink: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .milestoneLabel {
-  font-size: 0.72rem;
-  font-weight: 800;
+  font-size: 0.68rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   color: var(--ifm-color-emphasis-500);
@@ -508,7 +622,7 @@
 }
 
 .milestoneText {
-  font-size: 0.88rem;
+  font-size: 0.86rem;
   line-height: 1.65;
   color: var(--ifm-font-color-base);
 }
@@ -520,80 +634,68 @@
   margin-top: 4rem;
   text-align: center;
   padding: 2.5rem 2rem;
-  border-radius: 20px;
+  border-radius: 16px;
   border: 1px solid var(--ifm-color-emphasis-200);
   background: var(--ifm-color-emphasis-100);
 }
 
 [data-theme='dark'] .footer {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.07);
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(255,255,255,0.07);
 }
 
 .footerQuote {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-style: italic;
-  line-height: 1.85;
+  line-height: 1.9;
   color: var(--ifm-color-emphasis-700);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
 }
 
 [data-theme='dark'] .footerQuote {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255,255,255,0.45);
 }
 
 .footerSub {
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-size: 0.82rem;
+  font-weight: 600;
   color: var(--ifm-color-primary);
   margin-bottom: 1.5rem;
 }
 
 .footerBtn {
   display: inline-block;
-  padding: 0.65rem 1.75rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #667eea, #f5576c);
+  padding: 0.6rem 1.6rem;
+  border-radius: 8px;
+  background: var(--ifm-color-primary);
   color: #fff !important;
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 0.88rem;
+  font-weight: 600;
   text-decoration: none !important;
   transition: opacity 0.2s, transform 0.2s;
-  box-shadow: 0 4px 18px rgba(102, 126, 234, 0.35);
 }
 
 .footerBtn:hover {
-  opacity: 0.9;
-  transform: translateY(-2px);
+  opacity: 0.88;
+  transform: translateY(-1px);
 }
 
 /* ===========================
    Responsive
    =========================== */
 @media (max-width: 600px) {
-  .heroTitle {
-    font-size: 2rem !important;
+  .heroTitle { font-size: 2rem !important; }
+
+  .row { gap: 1rem; }
+
+  .axis { width: 28px; }
+
+  .axisDot {
+    width: 28px;
+    height: 28px;
   }
 
-  .row {
-    gap: 0.75rem;
-  }
+  .axisNum { font-size: 0.6rem; }
 
-  .axisCircle {
-    width: 34px;
-    height: 34px;
-  }
-
-  .axisNum {
-    font-size: 0.65rem;
-  }
-
-  .cardHeader {
-    flex-wrap: wrap;
-  }
-
-  .statusBadge {
-    order: -1;
-    margin-left: auto;
-  }
+  .cardTopRow { flex-wrap: wrap; }
 }
