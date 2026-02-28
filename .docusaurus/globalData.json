@@ -166,11 +166,6 @@
               "sidebar": "GoalngVue"
             },
             {
-              "id": "Java/JAVA/admin组件",
-              "path": "/docs/Java/JAVA/admin组件",
-              "sidebar": "JAVA"
-            },
-            {
               "id": "k8s/更新内核",
               "path": "/docs/k8s/更新内核",
               "sidebar": "k8s"
@@ -431,6 +426,11 @@
               "sidebar": "SreMiddleSoft"
             },
             {
+              "id": "Sre/gpu/多机通信",
+              "path": "/docs/Sre/gpu/多机通信",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Treasure/Studytour/莱卡",
               "path": "/docs/Treasure/Studytour/莱卡",
               "sidebar": "Studytour"
@@ -549,12 +549,6 @@
               "link": {
                 "path": "/docs/Golang/VUE/vue入门教程/html基础",
                 "label": "Golang/VUE/vue入门教程/html基础"
-              }
-            },
-            "JAVA": {
-              "link": {
-                "path": "/docs/Java/JAVA/admin组件",
-                "label": "Java/JAVA/admin组件"
               }
             },
             "English": {},

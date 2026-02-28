@@ -187,23 +187,30 @@
     },
     "content": "content---markdown-page-393-028"
   },
+  "/roadmap-274": {
+    "__comp": "__comp---site-src-pages-roadmap-js-41-f-527",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---roadmap-5-e-9-1bb"
+  },
   "/search-5de": {
     "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
       "plugin": "plugin---searchc-14-0ea"
     }
   },
-  "/docs-7dd": {
+  "/docs-8e6": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-988": {
+  "/docs-0eb": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-ad9": {
+  "/docs-163": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/DevOps/ELK/elasticsearch操作-bc2": {
@@ -329,10 +336,6 @@
   "/docs/Golang/VUE/vue入门教程/vue项目学习-123": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-golang-vue-vue入门教程-vue项目学习-220-9d3"
-  },
-  "/docs/Java/JAVA/admin组件-5d0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-java-java-admin组件b-28-27f"
   },
   "/docs/k8s/更新内核-122": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -542,6 +545,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-sre-中间件-zookeeper-887-148"
   },
+  "/docs/Sre/gpu/多机通信-b79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sre-gpu-多机通信-6-df-d1d"
+  },
   "/docs/Treasure/Studytour/莱卡-efe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-treasure-studytour-莱卡-150-207"
@@ -555,6 +562,6 @@
     "__context": {
       "plugin": "plugin---markdown-pagea-74-7b5"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---roadmap-5-e-9-1bb"
   }
 }
