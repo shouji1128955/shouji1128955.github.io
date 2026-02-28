@@ -5,7 +5,7 @@
  */
 export default {
   "title": "LiteShell",
-  "tagline": "SRE Engineer · 云原生 · 可观测性 · 基础设施自动化",
+  "tagline": "AI Infra Engineer · GPU 集群 · 大模型推理 · 分布式训练",
   "favicon": "img/favicon.ico",
   "url": "https://blog.agi-infra.com",
   "baseUrl": "/",

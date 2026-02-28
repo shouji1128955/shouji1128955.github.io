@@ -5,13 +5,13 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 const TYPING_TEXTS = [
-  'kubectl get pods -n production',
-  'prometheus_http_requests_total',
-  'terraform apply -auto-approve',
-  'helm upgrade --install app ./chart',
-  'ansible-playbook site.yml --check',
-  'docker build -t registry/app:latest .',
-  'alertmanager --config.file=am.yml',
+  'nvidia-smi --query-gpu=name,memory.total --format=csv',
+  'kubectl get pods -n gpu-operator',
+  'helm install gpu-operator nvidia/gpu-operator',
+  'vllm serve meta-llama/Llama-3-70B --tensor-parallel-size 8',
+  'python -c "import torch; print(torch.cuda.device_count())"',
+  'nccl-tests/build/all_reduce_perf -b 8 -e 8G -f 2 -g 8',
+  'docker run --gpus all nvcr.io/nvidia/cuda:12.4.0-base',
 ];
 
 function TypingText() {
@@ -44,48 +44,48 @@ function TypingText() {
   );
 }
 
-const TechBadges = ['Kubernetes', 'Prometheus', 'Golang', 'Docker', 'Terraform', 'ELK', 'GitOps', 'SRE'];
+const TechBadges = ['GPU Cluster', 'CUDA', 'Kubernetes', 'NCCL', 'vLLM', 'PyTorch', 'Terraform', 'AI Infra'];
 
 const DomainList = [
   {
     color: '#2563eb',
-    icon: '🔧',
-    title: 'SRE & 运维',
-    link: '/docs/Sre/1-日常运维',
-    tags: ['日常运维', '中间件', '故障处理', '面试经验'],
-    desc: '站点可靠性工程实践，覆盖日常运维操作、中间件管理与 SRE 面试题精华。',
+    icon: '🖥️',
+    title: 'GPU 集群管理',
+    link: '/docs/k8s',
+    tags: ['NVIDIA Driver', 'CUDA', 'GPU Operator', 'MIG'],
+    desc: 'GPU 节点部署、驱动管理、MIG 分区、GPU Operator 落地，打造高可用 AI 计算集群。',
   },
   {
     color: '#059669',
     icon: '☸️',
-    title: '云原生 & Kubernetes',
+    title: 'Kubernetes & 调度',
     link: '/docs/k8s',
-    tags: ['K8s', '容器编排', '微服务', '集群管理'],
-    desc: '深入 Kubernetes 生产实践，从集群搭建到工作负载管理，构建稳定的云原生平台。',
+    tags: ['K8s', 'GPU 调度', '资源隔离', '弹性伸缩'],
+    desc: '面向 AI 工作负载的 Kubernetes 调度实践，覆盖 GPU 资源配额、节点亲和与训练任务编排。',
   },
   {
     color: '#0284c7',
-    icon: '📊',
-    title: '可观测性',
+    icon: '🤖',
+    title: '大模型推理',
     link: '/docs/Prometheus/prometheus',
-    tags: ['Prometheus', 'Grafana', 'AlertManager', 'ELK', 'Skywalking'],
-    desc: '全链路可观测性体系建设，指标、日志、链路追踪三位一体，让系统状态一目了然。',
+    tags: ['vLLM', 'TensorRT-LLM', 'Triton', '模型服务'],
+    desc: '大语言模型推理服务部署，vLLM / TensorRT-LLM 性能调优，低延迟高吞吐在线服务实践。',
   },
   {
     color: '#7c3aed',
-    icon: '🚀',
-    title: 'DevOps & 工程化',
+    icon: '⚡',
+    title: '分布式训练',
     link: '/docs/DevOps/1-jenkins',
-    tags: ['Jenkins', 'GitOps', 'Terraform', 'Observability'],
-    desc: 'CI/CD 流水线、基础设施即代码、GitOps 工作流，推动研发效能持续提升。',
+    tags: ['NCCL', 'PyTorch DDP', 'Megatron', 'DeepSpeed'],
+    desc: '大规模分布式训练基础设施搭建，NCCL 通信调优、训练框架集成与多机多卡故障排查。',
   },
   {
     color: '#0d9488',
-    icon: '🐹',
-    title: 'Golang 开发',
-    link: '/docs/Golang/golang基础',
-    tags: ['Go基础', 'Go进阶', '运维工具', 'Vue'],
-    desc: '用 Golang 武装运维工程师，从基础语法到高并发实战，打造自己的运维工具链。',
+    icon: '📊',
+    title: '可观测性',
+    link: '/docs/Prometheus/grafana',
+    tags: ['Prometheus', 'Grafana', 'DCGM', 'GPU 监控'],
+    desc: 'AI 集群全栈监控，DCGM Exporter 采集 GPU 指标，Grafana 可视化训练/推理健康状态。',
   },
   {
     color: '#64748b',
@@ -123,13 +123,13 @@ function HeroSection() {
 
         {/* 副标题 */}
         <p className={styles.heroSubtitle}>
-          SRE Engineer · 专注于<strong>云原生</strong>、<strong>可观测性</strong>与<strong>基础设施自动化</strong>
+          AI Infra Engineer · 专注于<strong>GPU 集群</strong>、<strong>模型推理</strong>与<strong>分布式训练</strong>
         </p>
 
         {/* 描述 */}
         <p className={styles.heroDesc}>
-          记录生产实践中的踩坑与收获，分享 Kubernetes、Prometheus、DevOps 等领域的技术笔记，<br />
-          愿每一行配置都经得住凌晨三点的故障考验。
+          记录 AI 基础设施的实战经验，分享 GPU 集群调度、大模型部署、分布式训练等领域的技术笔记，<br />
+          让每一张卡都跑满，让每一次推理都低延迟。
         </p>
 
         {/* 打字机命令行 */}
@@ -213,10 +213,11 @@ function QuoteSection() {
       <div className={styles.quoteInner}>
         <div className={styles.quoteIcon}>"</div>
         <p className={styles.quoteText}>
-          The goal of SRE is to make the service reliable enough that the team can focus on new features rather than firefighting.
+          The infrastructure beneath AI is not a commodity — it is the competitive advantage.
+          Great models are only as good as the systems that run them.
         </p>
         <div className={styles.quoteDivider} />
-        <span className={styles.quoteAuthor}>— Google SRE Book</span>
+        <span className={styles.quoteAuthor}>— AI Infra Engineering</span>
       </div>
     </section>
   );
@@ -225,8 +226,8 @@ function QuoteSection() {
 export default function Home() {
   return (
     <Layout
-      title="SRE 工程师的技术笔记"
-      description="LiteShell - SRE Engineer，专注于云原生、可观测性与基础设施自动化的技术博客">
+      title="AI Infra 工程师的技术笔记"
+      description="LiteShell - AI Infra Engineer，专注于 GPU 集群、大模型推理与分布式训练的技术博客">
       <HeroSection />
       <main>
         <DomainsSection />

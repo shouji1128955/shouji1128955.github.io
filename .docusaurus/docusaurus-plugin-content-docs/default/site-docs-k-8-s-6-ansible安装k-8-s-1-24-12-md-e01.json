@@ -21,7 +21,7 @@
     "permalink": "/docs/k8s/更新内核"
   },
   "next": {
-    "title": "nvidia",
+    "title": "NVIDIA Fabric Manager 安装指南",
     "permalink": "/docs/k8s/nvidia"
   }
 }
