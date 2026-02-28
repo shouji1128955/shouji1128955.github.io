@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /blog/
-Allow: /docs/
-Disallow: /static/
-Disallow: /demo/
-Sitemap: https://blog.agi-infra.com/sitemap.xml
