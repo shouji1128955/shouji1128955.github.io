@@ -98,21 +98,26 @@ export default [
     exact: true
   },
   {
+    path: '/roadmap',
+    component: ComponentCreator('/roadmap', '274'),
+    exact: true
+  },
+  {
     path: '/search',
     component: ComponentCreator('/search', '5de'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7dd'),
+    component: ComponentCreator('/docs', '8e6'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '988'),
+        component: ComponentCreator('/docs', '0eb'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ad9'),
+            component: ComponentCreator('/docs', '163'),
             routes: [
               {
                 path: '/docs/DevOps/ELK/elasticsearch操作',
@@ -299,12 +304,6 @@ export default [
                 component: ComponentCreator('/docs/Golang/VUE/vue入门教程/vue项目学习', '123'),
                 exact: true,
                 sidebar: "GoalngVue"
-              },
-              {
-                path: '/docs/Java/JAVA/admin组件',
-                component: ComponentCreator('/docs/Java/JAVA/admin组件', '5d0'),
-                exact: true,
-                sidebar: "JAVA"
               },
               {
                 path: '/docs/k8s/更新内核',
@@ -617,6 +616,12 @@ export default [
                 component: ComponentCreator('/docs/Sre/中间件/zookeeper', 'c2e'),
                 exact: true,
                 sidebar: "SreMiddleSoft"
+              },
+              {
+                path: '/docs/Sre/gpu/多机通信',
+                component: ComponentCreator('/docs/Sre/gpu/多机通信', 'b79'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/Treasure/Studytour/莱卡',

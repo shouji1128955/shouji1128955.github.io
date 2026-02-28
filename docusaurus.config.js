@@ -14,7 +14,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
 
   title: 'LiteShell',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'SRE Engineer · 云原生 · 可观测性 · 基础设施自动化',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -311,6 +311,11 @@ const config = {
           {to: '/blog',
            label: 'Blog',
           position: 'left'
+          },
+          {
+            to: '/roadmap',
+            label: '成长路线',
+            position: 'left',
           },
           {
             href: 'https://github.com/facebook/docusaurus',

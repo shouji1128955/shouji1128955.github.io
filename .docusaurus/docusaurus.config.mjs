@@ -5,7 +5,7 @@
  */
 export default {
   "title": "LiteShell",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "SRE Engineer · 云原生 · 可观测性 · 基础设施自动化",
   "favicon": "img/favicon.ico",
   "url": "https://blog.agi-infra.com",
   "baseUrl": "/",
@@ -29,7 +29,7 @@ export default {
       {
         "docs": {
           "sidebarCollapsed": true,
-          "sidebarPath": "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/sidebars.js",
+          "sidebarPath": "/Users/zhanglaiqiang/Mywork/github/shouji1128955/shouji1128955.github.io/sidebars.js",
           "editUrl": "https://github.com/shouji1128955/bookshell/edit/main",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true
@@ -39,7 +39,7 @@ export default {
           "editUrl": "https://github.com/shouji1128955/bookshell/tree/main/blog"
         },
         "theme": {
-          "customCss": "/Users/zhanglaiqiang/Mywork/shouji1128955/shouji1128955.github.io/src/css/custom.css"
+          "customCss": "/Users/zhanglaiqiang/Mywork/github/shouji1128955/shouji1128955.github.io/src/css/custom.css"
         },
         "sitemap": {
           "lastmod": "date",
@@ -210,18 +210,6 @@ export default {
           ]
         },
         {
-          "label": "JAVA",
-          "position": "left",
-          "items": [
-            {
-              "type": "docSidebar",
-              "sidebarId": "JAVA",
-              "to": "/docs/Java/JAVA",
-              "label": "Java"
-            }
-          ]
-        },
-        {
           "label": "Treasure",
           "position": "left",
           "items": [
@@ -242,6 +230,11 @@ export default {
         {
           "to": "/blog",
           "label": "Blog",
+          "position": "left"
+        },
+        {
+          "to": "/roadmap",
+          "label": "成长路线",
           "position": "left"
         },
         {
@@ -291,7 +284,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Blog Project - LiteShell"
+      "copyright": "Copyright © 2026 My Blog Project - LiteShell"
     },
     "prism": {
       "theme": {

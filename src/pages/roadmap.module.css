@@ -1,0 +1,701 @@
+/* ===========================
+   Hero（保持不变）
+   =========================== */
+.hero {
+  position: relative;
+  padding: 5rem 1.5rem 4rem;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(160deg, #0f2040 0%, #0a1628 50%, #091420 100%);
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 40%, rgba(102, 126, 234, 0.25) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 60% at 80% 60%, rgba(245, 87, 108, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 50% 80%, rgba(17, 153, 142, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heroTag {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.heroTitle {
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+  color: #fff !important;
+  margin: 0 !important;
+  line-height: 1.15 !important;
+  background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.7) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSub {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ---- 点阵网格 ---- */
+.heroDots {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+}
+
+/* ---- 浮动光斑 ---- */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  pointer-events: none;
+  will-change: transform;
+}
+
+.blob1 {
+  width: 380px;
+  height: 380px;
+  background: rgba(102, 126, 234, 0.22);
+  top: -60px;
+  left: -80px;
+  animation: blobFloat1 12s ease-in-out infinite;
+}
+
+.blob2 {
+  width: 300px;
+  height: 300px;
+  background: rgba(17, 153, 142, 0.18);
+  bottom: -40px;
+  right: -60px;
+  animation: blobFloat2 15s ease-in-out infinite;
+}
+
+.blob3 {
+  width: 220px;
+  height: 220px;
+  background: rgba(245, 87, 108, 0.14);
+  top: 40%;
+  left: 55%;
+  animation: blobFloat3 10s ease-in-out infinite;
+}
+
+@keyframes blobFloat1 {
+  0%, 100% { transform: translate(0,   0)   scale(1);   }
+  33%       { transform: translate(40px, 30px) scale(1.05); }
+  66%       { transform: translate(-20px, 50px) scale(0.95); }
+}
+
+@keyframes blobFloat2 {
+  0%, 100% { transform: translate(0,   0)    scale(1);    }
+  40%       { transform: translate(-50px, -30px) scale(1.08); }
+  70%       { transform: translate(30px, -50px) scale(0.96); }
+}
+
+@keyframes blobFloat3 {
+  0%, 100% { transform: translate(0,   0)   scale(1);   }
+  50%       { transform: translate(-30px, 40px) scale(1.1); }
+}
+
+/* ---- 底部扫描线 ---- */
+.scanLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(102, 126, 234, 0.6) 30%,
+    rgba(245, 87, 108, 0.6) 70%,
+    transparent 100%
+  );
+  animation: scanMove 4s ease-in-out infinite;
+}
+
+@keyframes scanMove {
+  0%, 100% { opacity: 0.4; transform: scaleX(0.6); }
+  50%       { opacity: 1;   transform: scaleX(1);   }
+}
+
+
+/* ===========================
+   Progress Bar
+   =========================== */
+.progressWrap {
+  width: 100%;
+  max-width: 480px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.1rem 1.4rem;
+  backdrop-filter: blur(10px);
+  margin-top: 0.5rem;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.progressLabel {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.progressPct {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.progressTrack {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #667eea, #f5576c, #f7971e);
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progressStats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.statDone  { color: #38ef7d; font-weight: 600; }
+.statDoing { color: #4facfe; font-weight: 600; }
+.statTodo  { color: rgba(255,255,255,0.35); }
+
+/* ===========================
+   Main Layout
+   =========================== */
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 5rem;
+}
+
+.timelineWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+}
+
+/* ===========================
+   Axis — 描边小圆点风格
+   =========================== */
+.axis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 1.4rem;
+  width: 36px;
+}
+
+.axisDot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.axisDotTodo {
+  border-color: var(--ifm-color-emphasis-200) !important;
+  color: var(--ifm-color-emphasis-400) !important;
+}
+
+[data-theme='dark'] .axisDot {
+  background: #0f1117;
+}
+
+[data-theme='dark'] .axisDotTodo {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+
+.axisPulse {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 1.5px solid;
+  opacity: 0;
+  animation: axis-pulse 2.2s ease-out infinite;
+}
+
+@keyframes axis-pulse {
+  0%  { transform: scale(1);   opacity: 0.6; }
+  80% { transform: scale(1.5); opacity: 0; }
+  100%{ transform: scale(1.5); opacity: 0; }
+}
+
+.axisNum {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+/* 连接线 — 虚线 */
+.axisLine {
+  width: 0;
+  flex: 1;
+  min-height: 24px;
+  margin-top: 5px;
+  border-left: 2px dashed var(--ifm-color-emphasis-200);
+  opacity: 0.5;
+}
+
+.row:last-child .axisLine { display: none; }
+
+/* ===========================
+   Card — 左侧边框 accent
+   =========================== */
+.cardWrap {
+  flex: 1;
+  padding-bottom: 1.5rem;
+  min-width: 0;
+}
+
+.card {
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--accent, var(--ifm-color-emphasis-300));
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: var(--ifm-background-surface-color);
+}
+
+.card:hover {
+  transform: translateX(3px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+}
+
+.cardOpen {
+  box-shadow: 0 6px 28px rgba(0,0,0,0.09);
+}
+
+.cardTodo {
+  border-left-color: var(--ifm-color-emphasis-200) !important;
+  opacity: 0.75;
+}
+
+[data-theme='dark'] .card {
+  background: #13171f;
+  border-color: rgba(255,255,255,0.07);
+  border-left-color: var(--accent, rgba(255,255,255,0.15));
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+}
+
+[data-theme='dark'] .cardOpen {
+  box-shadow: 0 6px 28px rgba(0,0,0,0.4);
+}
+
+[data-theme='dark'] .cardTodo {
+  border-left-color: rgba(255,255,255,0.1) !important;
+}
+
+.cardBody {
+  padding: 1.1rem 1.3rem 0.9rem;
+}
+
+/* Card header */
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+/* Icon box — 无渐变，只用淡色底 */
+.cardIconBox {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: var(--ifm-color-emphasis-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+[data-theme='dark'] .cardIconBox {
+  background: rgba(255,255,255,0.05);
+}
+
+.cardIcon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.cardMeta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+/* Phase + badge 同行 */
+.cardTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.cardPhase {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-500);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.cardTitle {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  color: var(--ifm-font-color-base) !important;
+  line-height: 1.3 !important;
+}
+
+.cardPeriod {
+  font-size: 0.76rem;
+  color: var(--ifm-color-emphasis-500);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Status badge */
+.statusBadge {
+  padding: 0.18rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid transparent;
+}
+
+.dotDone {
+  background: rgba(16, 185, 129, 0.08);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+
+.dotDoing {
+  background: rgba(37, 99, 235, 0.08);
+  color: #2563eb;
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.dotTodo {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-500);
+  border-color: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .dotDone {
+  background: rgba(16, 185, 129, 0.1);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+
+[data-theme='dark'] .dotDoing {
+  background: rgba(37, 99, 235, 0.1);
+  color: #60a5fa;
+  border-color: rgba(37, 99, 235, 0.2);
+}
+
+[data-theme='dark'] .dotTodo {
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.08);
+}
+
+
+.badgePulse {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: badge-pulse 1.8s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes badge-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* Summary */
+.cardSummary {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 0.4rem;
+}
+
+[data-theme='dark'] .cardSummary {
+  color: rgba(255,255,255,0.5);
+}
+
+/* Toggle */
+.toggle {
+  font-size: 0.72rem;
+  font-weight: 600;
+  user-select: none;
+  margin-top: 0.2rem;
+  letter-spacing: 0.2px;
+}
+
+/* ===========================
+   Expanded Detail
+   =========================== */
+.detail {
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  animation: slideDown 0.2s ease;
+}
+
+[data-theme='dark'] .detail {
+  border-top-color: rgba(255,255,255,0.07);
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+@media (max-width: 560px) {
+  .skillGrid { grid-template-columns: 1fr; }
+}
+
+.skillGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.skillCategory {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.skillItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.skillChip {
+  font-size: 0.74rem;
+  padding: 0.16rem 0.55rem;
+  border-radius: 5px;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  font-family: var(--ifm-font-family-monospace);
+  transition: background 0.15s;
+}
+
+.skillChip:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .skillChip {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+}
+
+[data-theme='dark'] .skillChip:hover {
+  background: rgba(255,255,255,0.09);
+}
+
+/* Milestone */
+.milestone {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-100);
+  border-left: 3px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .milestone {
+  background: rgba(255,255,255,0.03);
+}
+
+.milestoneIcon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  line-height: 1.5;
+}
+
+.milestoneLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--ifm-color-emphasis-500);
+  margin-bottom: 0.2rem;
+}
+
+.milestoneText {
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--ifm-font-color-base);
+}
+
+/* ===========================
+   Footer
+   =========================== */
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .footer {
+  background: rgba(255,255,255,0.02);
+  border-color: rgba(255,255,255,0.07);
+}
+
+.footerQuote {
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.9;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.6rem;
+}
+
+[data-theme='dark'] .footerQuote {
+  color: rgba(255,255,255,0.45);
+}
+
+.footerSub {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.footerBtn {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  border-radius: 8px;
+  background: var(--ifm-color-primary);
+  color: #fff !important;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.footerBtn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+@media (max-width: 600px) {
+  .heroTitle { font-size: 2rem !important; }
+
+  .row { gap: 1rem; }
+
+  .axis { width: 28px; }
+
+  .axisDot {
+    width: 28px;
+    height: 28px;
+  }
+
+  .axisNum { font-size: 0.6rem; }
+
+  .cardTopRow { flex-wrap: wrap; }
+}
