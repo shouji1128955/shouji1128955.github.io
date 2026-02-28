@@ -290,19 +290,6 @@ const config = {
               },                           
             ]
         }, 
-
-          {
-            label: 'JAVA',
-            position: 'left',
-            items: [
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'JAVA',   //这个名称最好是英文
-                    to: '/docs/Java/JAVA',
-                    label: 'Java',
-                },                          
-            ]
-        },
           {
             label: 'Treasure',
             position: 'left',
