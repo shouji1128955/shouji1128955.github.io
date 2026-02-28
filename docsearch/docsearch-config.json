@@ -1,10 +1,10 @@
 {
   "index_name": "docsearchinter",
   "start_urls": [
-    "https://book.onlinebookshell.co.in/"
+    "https://blog.agi-infra.com/"
   ],
   "sitemap_urls": [
-    "https://book.onlinebookshell.co.in/sitemap.xml"
+    "https://blog.agi-infra.com/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [

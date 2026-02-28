@@ -7,7 +7,7 @@ export default {
   "title": "LiteShell",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://book.onlinebookshell.co.in",
+  "url": "https://blog.agi-infra.com",
   "baseUrl": "/",
   "organizationName": "shouji1128955",
   "projectName": "bookshell",
